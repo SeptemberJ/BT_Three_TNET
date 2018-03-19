@@ -17,6 +17,7 @@
         <Col class="TextCenter marginB_10" :xs="24" :sm="6" :md="6" :lg="6" v-for="(Customization,Idx) in Customization">
           <Button :class="{'Green': Idx == 0,'Blue': Idx == 1,'Orange': Idx == 2,'Puple': Idx == 3}" style="color: #fff;" type="text" shape="circle">{{Customization.name}}</Button>
         </Col>
+        <div style="clear: both;"></div>
       </Row>
 
     </div>

@@ -14,7 +14,7 @@ const routes = [
     path: '/',
     component: App,
     children: [
-    {path:'/TNET_Home',name: '首页', component: TNET_Home},
+    {path:'/TNET_Home',name: '软件开发', component: TNET_Home},
     // {path:'/SmartHox_ApplicationScene',name: '物联网场景应用', component: SmartHox_ApplicationScene},
     // {path:'/SmartHox_Products',name: '产品与服务', component: SmartHox_Products},
     {path:'/Company',name: '公司', component: Company},

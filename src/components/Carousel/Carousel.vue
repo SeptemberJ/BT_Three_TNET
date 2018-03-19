@@ -39,13 +39,13 @@
                     <div class="owl-controls clickable" style="bottom: 58px;">
                       <div class="owl-pagination">
                         <div :class="{ 'active': CurCarousel == 0,'owl-page downpage CursorPointer':true}"  @click="ChangeCurCarousel(0)">
-                          <span class=""><i class="fa fa-truck"></i><p style="height: 40px;">万物互联一站式解决方案提供商</p></span>
+                          <span class=""><i class="fa fa-cubes"></i><p style="height: 40px;">万物互联一站式解决方案提供商</p></span>
                         </div>
                         <div :class="{ 'active': CurCarousel == 1,'owl-page downpage CursorPointer':true}" @click="ChangeCurCarousel(1)">
-                          <span class=""><i class="fa fa-group"></i><p style="height: 40px;">IoT 数据云平台服务</p></span>
+                          <span class=""><i class="fa fa-send-o"></i><p style="height: 40px;">IoT 数据云平台服务</p></span>
                         </div>
                         <div :class="{ 'active': CurCarousel == 2,'owl-page downpage CursorPointer':true}"  @click="ChangeCurCarousel(2)">
-                          <span class=""><i class="fa fa-inbox"></i><p style="height: 40px;">物联网接入网关-Hox One</p></span>
+                          <span class=""><i class="fa fa-sitemap"></i><p style="height: 40px;">物联网接入网关-Hox One</p></span>
                         </div>
                       </div>
                       <div class="owl-buttons">

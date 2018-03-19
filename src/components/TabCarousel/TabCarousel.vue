@@ -1,5 +1,5 @@
 <template>
-  <div class="TabCarousel">
+  <div class="TabCarousel marginT_40">
        <div class="section carousel" style="margin-top:-25px;"> 
          <div class="transitionValue" transitionvalue="10" style="transition: none 0s ease 0s ;"></div> 
          <div class="transitionOffOn" transitionoffon="" style="transition: none 0s ease 0s ;"></div> 

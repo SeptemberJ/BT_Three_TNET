@@ -28,7 +28,7 @@
             <Col span="12" class="TextLeft">
               <h3 class="marginTB_10">RFID仓储快速出入库管理系统现已发布</h3>
               <p class="marginTB_10">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
-              <a class="marginTB_10">了解更多>></a>
+              <!-- <a class="marginTB_10">了解更多>></a> -->
             </Col>
             <Col span="12">
               <img src="http://139.196.232.21/images/vmw-workstation-pro12-5-boxshot.jpg.png">
@@ -40,7 +40,7 @@
             <Col span="12" class="TextLeft">
               <h3 class="marginTB_10">RFID仓储快速出入库管理系统现已发布</h3>
               <p class="marginTB_10">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
-              <a class="marginTB_10">了解更多>></a>
+              <!-- <a class="marginTB_10">了解更多>></a> -->
             </Col>
             <Col span="12">
               <img src="http://139.196.232.21/images/vmw-fusion8-5-boxshot.jpg.png">

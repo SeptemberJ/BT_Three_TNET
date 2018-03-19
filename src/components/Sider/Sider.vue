@@ -3,10 +3,10 @@
     <div class="desktop">
       <Menu :theme="theme3" :active-name="CurSiderMenu" @on-select="ChangeSiderMenu">
           <MenuGroup title="">
-              <MenuItem name="首页" class="marginB_20">
+              <!-- <MenuItem name="首页" class="marginB_20">
                   <Icon size="22" type="home"></Icon>
                   <h5>首页</h5>
-              </MenuItem>
+              </MenuItem> -->
               <MenuItem name="IoT智能" class="marginB_20">
                   <Icon size="22" type="social-buffer"></Icon>
                   <h5>IoT智能</h5>
@@ -29,10 +29,10 @@
     <div class="tablet">
       <Menu :theme="theme3" :active-name="CurSiderMenu" @on-select="ChangeSiderMenu2">
           <MenuGroup title="">
-              <MenuItem name="首页" class="marginB_20">
+              <!-- <MenuItem name="首页" class="marginB_20">
                   <Icon size="22" type="home"></Icon>
                   <h5>首页</h5>
-              </MenuItem>
+              </MenuItem> -->
               <MenuItem name="IoT智能" class="marginB_20">
                   <Icon size="22" type="social-buffer"></Icon>
                   <h5>IoT智能</h5>

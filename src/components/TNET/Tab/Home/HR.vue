@@ -6,7 +6,7 @@
       <div style="min-height: 300px;background-image: url(static/img/TNET/bg/TNET_Product1.svg)">
         <h5 class="PaddingT_40">4档缴纳模式，最低只要20元</h5>
         <p class="marginTB_20">由于各地社保政策不同，下列费用只作为参考，具体费用以实际情况为准</p>
-        <Button class="marginTB_20" type="warning" shape="">立即参保</Button>
+        <Button class="marginTB_20" type="warning" shape="" @click="ToSBY()">立即参保</Button>
       </div>
     </div>
   </div>
@@ -31,6 +31,9 @@
     components: {
     },
     methods: {
+      ToSBY(){
+        window.open('http://220.248.107.62:8089/ztnetsby')
+      }
      
 
     }
