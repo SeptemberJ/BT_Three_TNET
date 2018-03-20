@@ -77,9 +77,9 @@
       return {
         CurCarousel:1,
         TabCarousel:[
-          {'img':'http://139.196.232.21/images/vmware-ibm-increases-agility-with-nsx-automation.jpg','title':'打造企业“智造力”实现企业的卓越价值和基业长青','content':'设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”。','link':'','sloganImg':'http://139.196.232.21/images/logo-linguo.png'},
-          {'img':'http://139.196.232.21/images/vmware-scaling-to-serve-one-million-patients-a-year.jpg','title':'从传统到智能让制造更简单','content':'Ztnet开发SFIS生产现场管控系统对整个生产过程进行管控，包括物料、生产、品质、重工、维修、包装、入库等，能最大化的提升企业的生产效率。','link':'','sloganImg':'http://139.196.232.21/images/logo-zpmc.png'},
-          {'img':'http://139.196.232.21/images/vmware-seventy-seven-energy.jpg','title':'Ztnet 助力上海邮政快速步入”互联网+“ 时代','content':'商业快件平台、跨境电子物流平台让业务更加高效、畅通。','link':'','sloganImg':'http://139.196.232.21/images/logo-chinapost.png'}
+          {'img':'static/img/Banner/SmartHox_tabBanner1.png','title':'打造企业“智造力”实现企业的卓越价值和基业长青','content':'设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”。','link':'','sloganImg':'static/img/Icon/Home/SmartHox_Home_icon_logo-linguo.png'},
+          {'img':'static/img/Banner/SmartHox_tabBanner2.png','title':'从传统到智能让制造更简单','content':'Ztnet开发SFIS生产现场管控系统对整个生产过程进行管控，包括物料、生产、品质、重工、维修、包装、入库等，能最大化的提升企业的生产效率。','link':'','sloganImg':'static/img/Icon/Home/SmartHox_Home_icon_logo-zpmc.png'},
+          {'img':'static/img/Banner/SmartHox_tabBanner3.png','title':'Ztnet 助力上海邮政快速步入”互联网+“ 时代','content':'商业快件平台、跨境电子物流平台让业务更加高效、畅通。','link':'','sloganImg':'static/img/Icon/Home/SmartHox_Home_icon_logo-chinapost.png'}
         ]
 
       }
