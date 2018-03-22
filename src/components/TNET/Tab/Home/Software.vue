@@ -1,7 +1,7 @@
 <template>
   <div class="Iot">
-    <div class="TextLeft BlockOuter">
-      <h5 class="TextCenter marginB_10">殡葬管理云平台</h5>
+    <div class="TextLeft BlockOuter TabContent">
+      <h3 class="TextCenter marginB_10">殡葬管理云平台</h3>
       <p class="TextCenter marginB_10">助力民政殡葬信息化建设</p>
       <Row type="flex" justify="" class="code-row-bg marginT_20">
         <Col :xs="24" :sm="12" :md="6" :lg="6" v-for="(Product,Idx) in ProductList">
@@ -9,8 +9,8 @@
         </Col>
       </Row>
     </div>
-    <div class="TextCenter BlockOuter">
-      <h5 class="marginB_10">软件定制</h5>
+    <div class="TextCenter BlockOuter TabContent">
+      <h3 class="marginB_10">软件定制</h3>
       <p class="marginB_10">Ztnet&Btzoon可根据企业的需求，定制更贴合您的业务，让系统更高效更便捷</p>
 
       <Row type="flex" justify="center" class="code-row-bg marginT_40">

@@ -2,13 +2,13 @@
   <div class="TNET_home">
     <Carousel/>
     <div class="TextCenter OneBlock">
-            <h2>我们的产品</h2>
+            <h1>我们的产品</h1>
             <div class="marginTB_40">
               <Row class="TextCenter">
                   <Col v-for="(Tab,Idx) in TabMenu_Product" span="6" :class="{'Active':Cur_Product == Tab.name}">
                     <span class="CursorPointer Padding_10"  @click="ChangeTab_Product(Tab.name)">
-                      <Icon :size="24" color="#000" :type="Tab.icon"></Icon>
-                      <p>{{Tab.name}}</p>
+                      <Icon :size="24" :class="{'ActiveIcon':Cur_Product == Tab.name}" :type="Tab.icon"></Icon>
+                      <p :class="{'TabP':true,'ActiveP':Cur_Product == Tab.name}">{{Tab.name}}</p>
                     </span>
                   </Col>
               </Row>
@@ -26,8 +26,8 @@
         <Col class="marginB_10 PaddingTB_40 colorWhite"  style="background-color: #262c60;" :xs="24" :sm="12" :md="12"  :lg="12">
           <Row>
             <Col span="12" class="TextLeft">
-              <h3 class="marginTB_10">RFID仓储快速出入库管理系统现已发布</h3>
-              <p class="marginTB_10">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
+              <h2 class="marginTB_10 colorWhite">RFID仓储快速出入库管理系统现已发布</h2>
+              <p class="marginTB_10 colorWhite">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
               <!-- <a class="marginTB_10">了解更多>></a> -->
             </Col>
             <Col span="12">
@@ -38,8 +38,8 @@
         <Col class="marginB_10 PaddingTB_40 colorWhite" style="background-color: #e6281a;" :xs="24" :sm="12" :md="12"  :lg="12">
           <Row>
             <Col span="12" class="TextLeft">
-              <h3 class="marginTB_10">RFID仓储快速出入库管理系统现已发布</h3>
-              <p class="marginTB_10">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
+              <h2 class="marginTB_10 colorWhite">RFID仓储快速出入库管理系统现已发布</h2>
+              <p class="marginTB_10 colorWhite">最新版本支持Windows 10 ，并适用于Windows Server 2016。</p>
               <!-- <a class="marginTB_10">了解更多>></a> -->
             </Col>
             <Col span="12">
@@ -109,6 +109,13 @@ import HR from '../components/TNET/Tab/Home/HR'
 .TNET_home{
   .Active{
       border-bottom:2px solid #F58733 !important;
+      color: #F58733;
+  }
+  .ActiveIcon{
+    color: #F58733;
+  }
+  .ActiveP{
+    color: #F58733;
   }
   img{
     max-width: 100%;

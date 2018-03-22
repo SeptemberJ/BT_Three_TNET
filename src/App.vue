@@ -72,7 +72,7 @@ import Footer from 'components/Footer/Footer'
   }
 </script>
 <style lang="scss">
-$width: 150px;
+$width: 95px;
 
 
 .layout{

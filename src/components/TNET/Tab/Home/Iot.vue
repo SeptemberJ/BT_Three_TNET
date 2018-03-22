@@ -1,15 +1,15 @@
 <template>
   <div class="Iot">
-    <div class="BlockOuter">
-      <h5 class="TextLeft">物联网一站式纵向服务</h5>
-      <p class="TextLeft">Smart Hox 作为物联网行业极具创新能力的IoT云平台，为企业提供进入物联网必需的设备接入、设备控制、数据分析、供应链资源一站式服务，助力企业智造转型，并为其在物联网时代打造新商业模式。</p>
+    <div class="BlockOuter TextCenter TabContent">
+      <h3 class="marginTB_20">物联网一站式纵向服务</h3>
+      <p class="">Smart Hox 作为物联网行业极具创新能力的IoT云平台，为企业提供进入物联网必需的设备接入、设备控制、数据分析、供应链资源一站式服务，助力企业智造转型，并为其在物联网时代打造新商业模式。</p>
       <Row  type="flex"  justify="center"  class="code-row-bg marginTB_40 TextCenter" :gutter="16">
 
           <Col class="marginB_10" :xs="24" :sm="12" :md="6"  :lg="6" v-for="(Block,Idx) in BlockInfo">
             <div class="TextCenter SingleImg">
               <img style="" class="marginB_20" :src="Block.img"/>
             </div>
-            <h5 class="Bold TextLeft marginTB_20">{{Block.title}}</h5>
+            <h4 class="Bold TextLeft marginTB_20">{{Block.title}}</h4>
             <p class="TextLeft">{{Block.content}}</p>
           </Col>
           <div style="clear: both;"></div>

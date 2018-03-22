@@ -15,7 +15,7 @@
                             <img style="width: 50px;" :src="Block.img">
                         </div>
                         <h2>{{Block.title}}</h2>
-                        <p class="marginTB_10">{{Block.content}}</p>
+                        <p class="marginTB_10 colorWhite">{{Block.content}}</p>
                     </div>
                 </Col>
                 <div style="clear: both;"></div>
@@ -50,9 +50,9 @@
                     </Col>
                 </Row>
             </div>
-             <Row type="flex"  justify="space-around"  class="code-row-bg marginTB_40":gutter="16">
+            <Row type="flex"  justify="space-around"  class="code-row-bg marginTB_40  Padding_10" :gutter="16">
                 <Col class="marginB_20" :xs="24" :sm="8" :md="4" :lg="4" v-for="(Place,Idx) in PlaceList">
-                    <div style="height: 100%;" class="SingleImg">
+                    <div style="height: 100%;" class="SingleImg ImgAdditional">
                         <img style="" :src="Place.img">
                         <h5>{{Place.name}}</h5>
                     </div>
@@ -72,7 +72,7 @@
         <!-- 我们的团队 -->
         <div class="OneBlock colorWhite"  style="background-image: url('static/img/Icon/Company/parallax-two.jpg')">
             <h1 class="marginTB_20 TextCenter">
-                <span class="DotAfter">我们的团队</span>
+                <span class="DotAfter colorWhite">我们的团队</span>
                 <span class="BlueBorder"></span>
             </h1>
             <h3 class="marginTB_20 TextCenter">OUR TEAM</h3>
@@ -83,7 +83,7 @@
                                 <h5>{{Professor.name}}</h5>
                             </div>
                             <div class="IfShow" style="width: 100%;height: 100%;background: rgba(9,0,49,.9);position: absolute;top: 0;left: 0;color:#fff;padding: 20px;">
-                        <p class="TextLeft">{{Professor.introduction}}</p>
+                        <p class="TextLeft colorWhite">{{Professor.introduction}}</p>
                     </div>
                     </Col>
                 <div style="clear: both;"></div>

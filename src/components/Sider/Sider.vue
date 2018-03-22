@@ -133,12 +133,20 @@
   }
 
 }
+.ivu-menu-item h5{
+  margin-top: 8px;
+}
 .ivu-menu-item-group-title{
   background-repeat: no-repeat;
   background-position-x: center;
-  background-image: url('http://139.196.232.21/images/logo.png')
+  background-image: url('http://139.196.232.21/images/logo.png');
+  background-size: contain;
+  padding: 0 5px;
 }
 .ivu-menu-light{
-  width: 150px !important;
+  width: 95px !important;
+}
+.ivu-menu{
+  color: #808588 !important; 
 }
 </style>
