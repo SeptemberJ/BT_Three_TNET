@@ -1,7 +1,8 @@
 <template>
   <div class="TNET_home">
     <Carousel/>
-    <div class="TextCenter OneBlock">
+    <TelescopicBlock/>
+    <!-- <div class="TextCenter OneBlock">
             <h1>我们的产品</h1>
             <div class="marginTB_40">
               <Row class="TextCenter">
@@ -19,7 +20,7 @@
               <Software v-if="Cur_Product == '软件开发'"/>
               <HR v-if="Cur_Product == 'HR服务'"/>
             </div>
-    </div>
+    </div> -->
     <TabCarousel/>
     <div class="OneBlock" style="margin-top: 0px; overflow: hidden">
       <Row type="flex"  justify="center"  class="code-row-bg TextCenter" :gutter="16">
@@ -55,6 +56,7 @@
 <script>
 import Carousel from '../components/Carousel/Carousel'
 import TabCarousel from '../components/TabCarousel/TabCarousel'
+import TelescopicBlock from '../components/TelescopicBlock/TelescopicBlock'
 import Iot from '../components/TNET/Tab/Home/Iot'
 import Hardware from '../components/TNET/Tab/Home/Hardware'
 import Software from '../components/TNET/Tab/Home/Software'
@@ -89,6 +91,7 @@ import HR from '../components/TNET/Tab/Home/HR'
     components: {
       Carousel,
       TabCarousel,
+      TelescopicBlock,
       Iot,
       Hardware,
       Software,

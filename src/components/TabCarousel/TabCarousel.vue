@@ -75,7 +75,7 @@
   export default{
     data: function () {
       return {
-        CurCarousel:1,
+        CurCarousel:0,
         TabCarousel:[
           {'img':'static/img/Banner/SmartHox_tabBanner1.png','title':'打造企业“智造力”实现企业的卓越价值和基业长青','content':'设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”。','link':'','sloganImg':'static/img/Icon/Home/SmartHox_Home_icon_logo-linguo.png'},
           {'img':'static/img/Banner/SmartHox_tabBanner2.png','title':'从传统到智能让制造更简单','content':'Ztnet开发SFIS生产现场管控系统对整个生产过程进行管控，包括物料、生产、品质、重工、维修、包装、入库等，能最大化的提升企业的生产效率。','link':'','sloganImg':'static/img/Icon/Home/SmartHox_Home_icon_logo-zpmc.png'},

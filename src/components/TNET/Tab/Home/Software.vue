@@ -15,7 +15,7 @@
 
       <Row type="flex" justify="center" class="code-row-bg marginT_40">
         <Col class="TextCenter marginB_10" :xs="24" :sm="6" :md="6" :lg="6" v-for="(Customization,Idx) in Customization">
-          <Button :class="{'Green': Idx == 0,'Blue': Idx == 1,'Orange': Idx == 2,'Puple': Idx == 3}" style="color: #fff;" type="text" shape="circle">{{Customization.name}}</Button>
+          <Button :class="{'Green': Idx == 0,'Blue': Idx == 1,'Orange': Idx == 2,'Puple': Idx == 3}" style="color: #fff;" type="text" shape="circle" @click="GoLink(Customization.link)">{{Customization.name}}</Button>
         </Col>
         <div style="clear: both;"></div>
       </Row>
@@ -45,10 +45,10 @@
           {'name':'场馆预约管理系统','link':''},
         ],
         Customization:[
-          {'name':'行业软件定制','link':''},
-          {'name':'APP应用开发','link':''},
-          {'name':'小程序定制','link':''},
-          {'name':'金蝶二次开发','link':''}
+          {'name':'行业软件定制','link':'http://139.196.232.21/customization.jsp'},
+          {'name':'APP应用开发','link':'http://139.196.232.21/inventory.jsp'},
+          {'name':'小程序定制','link':'http://139.196.232.21/weChat.jsp'},
+          {'name':'金蝶二次开发','link':'http://139.196.232.21/eckf.jsp'}
         ]
       }
     },
@@ -66,6 +66,9 @@
     components: {
     },
     methods: {
+      GoLink(LINK){
+        window.open(LINK)
+      }
      
 
     }

@@ -10,7 +10,7 @@ const store = new Vuex.Store({
     isMobile:false,
     activeRoute:'软件开发',
     CurSiderMenu:'软件开发',
-    open:false,
+    open:true,
     docked: true,
     userInfo:{},
     

@@ -99,10 +99,11 @@ $width: 95px;
 
 .content_left{
   position: fixed;
+  width: $width;
   height: 100%;
   border-left: 1px solid #464547;
   background-color: #464547;
-  border:0px solid blue;
+  border:1px solid blue;
   top: 0px;
   left: 0px;
   z-index: 999999;
@@ -119,7 +120,10 @@ $width: 95px;
   .content_left{
     position: fixed;
     top: 0;
-    border:0px solid red;
+    border:1px solid red;
+    /*
+    background-color: #464547;
+    */
     width: $width;
     float: left;
   }
@@ -136,19 +140,19 @@ $width: 95px;
 .header{
   position: fixed;
   top: 0;
-  background-color: #000;
+  background-color: white;
   height: 40px;
   z-index: 999;
 }
 
 .body{
   background-color: white;
-  margin: 52px 0px 0px 0px;
+  margin: 60px 0px 20px 0px;
   box-shadow: 0 1px 1px rgba(0,0,0,.2);
 }
 
 .footer{
-  margin: 0px;
+  margin: 20px 10px 0px 10px;
   padding: 0;
   text-align: center;
 }
