@@ -1,7 +1,17 @@
 <template>
   <div class="TNET_home">
     <Carousel/>
-    <TelescopicBlock/>
+    <!-- <TelescopicBlock/> -->
+    <div class="TelescopicBlock tab-home">
+        <Iot v-if="Cur_Product == '物联网云服务'"/>
+        <Hardware v-if="Cur_Product == '联网硬件'"/>
+        <Software v-if="Cur_Product == '软件开发'"/>
+        <HR v-if="Cur_Product == 'HR服务'"/>
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" :class="{'active':Cur_Product == Tab.name}" v-for="(Tab,Idx) in TabMenu_Product" @click="ChangeTab_Product(Tab.name)"><a data-element-name="news" data-element-type="tab" href="#1" aria-controls="1" role="tab" data-toggle="tab" name="&amp;lpos=content_home : 213"><i class="fa fa-comments-o"></i>{{Tab.name}}</a></li>
+            <!-- <i class="fa fa-comments-o"></i> -->
+        </ul>
+    </div>
     <!-- <div class="TextCenter OneBlock">
             <h1>我们的产品</h1>
             <div class="marginTB_40">
@@ -65,7 +75,7 @@ import HR from '../components/TNET/Tab/Home/HR'
     data: function () {
       return {
         Cur_Product:'物联网云服务',
-        TabMenu_Product:[{'name':'物联网云服务','icon':'ios-monitor'},{'name':'联网硬件','icon':'ios-lightbulb'},{'name':'软件开发','icon':'ios-game-controller-b'},{'name':'HR服务','icon':'ios-game-controller-b'}],
+        TabMenu_Product:[{'name':'物联网云服务','icon':'fa fa-comments-o'},{'name':'联网硬件','icon':'fa fa-comments-o'},{'name':'软件开发','icon':'fa fa-comments-o'},{'name':'HR服务','icon':'fa fa-comments-o'}],
       }
     },
     mounted: function () {

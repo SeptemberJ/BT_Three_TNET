@@ -1,20 +1,124 @@
 <template>
   <div class="Iot">
-    <div class="BlockOuter TextCenter TabContent">
-      <h3 class="marginTB_20">物联网一站式纵向服务</h3>
-      <p class="">Smart Hox 作为物联网行业极具创新能力的IoT云平台，为企业提供进入物联网必需的设备接入、设备控制、数据分析、供应链资源一站式服务，助力企业智造转型，并为其在物联网时代打造新商业模式。</p>
-      <Row  type="flex"  justify="center"  class="code-row-bg marginTB_40 TextCenter" :gutter="16">
+    <Row type="flex" justify="space-between" class="code-row-bg" :gutter="16">
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/blackfriday-cybermonday-edu-estore-promo.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">构建设备</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">物联网 (IoT)始于“物”（即设备）。构建您的设备（从添加传感器到创建智能设备），才能启动您的 IoT 解决方案。</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;">   <i class="fa fa-bars detail-toggle"></i>
+                        </div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+            </Col>
 
-          <Col class="marginB_10" :xs="24" :sm="12" :md="6"  :lg="6" v-for="(Block,Idx) in BlockInfo">
-            <div class="TextCenter SingleImg">
-              <img style="" class="marginB_20" :src="Block.img"/>
-            </div>
-            <h4 class="Bold TextLeft marginTB_20">{{Block.title}}</h4>
-            <p class="TextLeft">{{Block.content}}</p>
-          </Col>
-          <div style="clear: both;"></div>
-      </Row>
-    </div>
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/blackfriday-cybermonday-edu-estore-promo.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">控制您的设备</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">部署控制、监控和管理您的设备的 IoT 解决方案，从而允许您捕获实时数据。</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;">   <i class="fa fa-bars detail-toggle"></i>
+                        </div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+            </Col>
+
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/hp-promo-emea-whatsnew.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">分析数据</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">利用您收集的数据并应用高级分析以揭示新业务见解。</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;"><i class="fa fa-bars detail-toggle"></i></div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+            </Col>
+
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/hp-promo-emea-whatsnew.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">针对见解采取措施</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">通过功能强大的应用程序将见解转变为行动，从而创造新的收入和业务机会。</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;"><i class="fa fa-bars detail-toggle"></i></div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+            </Col>
+        </Row>
   </div>
 </template>
 <script>

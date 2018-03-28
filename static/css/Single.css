@@ -503,3 +503,28 @@ a.orangered{display:inline-block;font-size:16px;text-shadow:0;color:#fff !import
 .tab-home .nav-tabs li a i{font-size:34px;display:table;margin:0 auto 5px}
 .tab-home .nav-tabs li.active a,.tab-home .nav-tabs li a:hover{color:#565656;background:#fff}
 .tab-home .nav-tabs li.active a:before{position:absolute;content:"";background:url('../images/tooltip.png') no-repeat;width:45px;height:24px;top:-24px;left:calc(50% - 22px)}
+
+
+/*tab*/
+.tab-home .nav-tabs{background:#444;bottom:-1px;left:0;width:100%;box-shadow:0 5px 16px rgba(0,0,0,0.4);-moz-box-shadow:0 5px 16px rgba(0,0,0,0.4);-webkit-box-shadow:0 5px 16px rgba(0,0,0,0.4);-ms-box-shadow:0 5px 16px rgba(0,0,0,0.4);margin-top:50px;position:relative;margin-bottom:0;padding-left:0;border-bottom:0}
+.tab-home .nav-tabs li{margin-bottom:0}
+.tab-home .nav-tabs li a{border-radius:0;color:#fff;text-align:center;padding:8px 50px 0;font-size:18px;font-family:"proxima_novaregular";border-color:transparent;text-transform:capitalize;position:relative;margin-right:0}
+.tab-home .nav-tabs li a:hover,.tab-home .nav-tabs li a:focus{border-color:transparent}
+.tab-home .nav-tabs li a i{font-size:24px;display:table;margin:0 auto 5px}
+.tab-home .nav-tabs li.active a,.tab-home .nav-tabs li a:hover{color:#565656;background:#fff}
+.tab-home .nav-tabs li.active a:before{position:absolute;content:"";background:url('../images/tooltip.png') no-repeat;width:45px;height:24px;top:-24px;left:calc(50% - 22px)}
+
+
+@media(max-width:992px){
+.tab-home{padding-top:20px;}
+.tab-home .nav-tabs{z-index:1}
+.tab-home .nav-tabs li a{font-size:16px;padding-left:10px;padding-right:10px}
+.tab-home .nav-tabs li a i{font-size:20px}
+}
+
+@media(max-width:768px){
+.tab-home{padding-top:20px;}
+.tab-home .nav-tabs{z-index:1}
+.tab-home .nav-tabs li a{font-size:12px;padding-left:10px;padding-right:10px}
+.tab-home .nav-tabs li a i{font-size:14px}
+}

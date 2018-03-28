@@ -1,30 +1,66 @@
 <template>
   <div class="Hardware">
-    <div class="BlockOuter  TabContent">
+        <Row type="flex" justify="space-between" class="code-row-bg" :gutter="16">
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/hp-promo-emea-whatsnew.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">智能硬件产品</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">物联网 (IoT)始于“物”（即设备）。构建您的设备（从添加传感器到创建智能设备），才能启动您的 IoT 解决方案。我们提供如下产品</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
 
-      <div class="OneBlock TextCenter">
-        <h3 class="marginTB_20">智能硬件产品</h3>
-        <p>物联网 (IoT)始于“物”（即设备）。构建您的设备（从添加传感器到创建智能设备），才能启动您的 IoT 解决方案。我们提供如下产品</p>
-        <Row type="flex"  justify="center"  class="code-row-bg marginTB_40":gutter="16">
-            <Col class="marginB_20" :xs="12" :sm="8" :md="4" :lg="4" v-for="(Hardware,Idx) in HardwareList">
-                <div class="SingleImg">
-                    <img style="width: 120px; height: 120px;" :src="Hardware.img">
-                    <p class="ImgTag">{{Hardware.name}}</p>
+
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;"><i class="fa fa-bars detail-toggle"></i></div>
+                        <div class="social-block">
+                        </div>
+                    </div>
                 </div>
+
             </Col>
-            <div style="clear: both;"></div>
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/blackfriday-cybermonday-edu-estore-promo.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">ODM</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">为你的传统电器，插上智能的“翅膀”</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;">   <i class="fa fa-bars detail-toggle"></i>
+                        </div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+
+            </Col>
         </Row>
-      </div>
-
-      <div class="OneBlock TextCenter">
-        <h3 class="marginTB_20">ODM</h3>
-        <p class="">为你的传统电器，插上智能的“翅膀”</p>
-        <div class="TextCenter SingleImg">
-            <img src="static/img/Icon/SmartHox_Products_icon13.png">
-        </div>
-      </div>
-
-    </div>
   </div>
 </template>
 <script>

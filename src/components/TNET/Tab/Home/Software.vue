@@ -1,6 +1,67 @@
 <template>
-  <div class="Iot">
-    <div class="TextLeft BlockOuter TabContent">
+  <div class="SoftWare">
+    <Row type="flex" justify="space-between" class="code-row-bg" :gutter="16">
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/hp-promo-emea-whatsnew.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">殡葬管理云平台</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">助力民政殡葬信息化建设</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;"><i class="fa fa-bars detail-toggle"></i></div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+
+            </Col>
+            <Col :xs="24" :sm="24" :md="12" :lg="12">
+                <div class="thumb-container  singleLineEllipse">
+                    <div class="thumb-img"  style="background-image:url('http://139.196.232.21/images/blackfriday-cybermonday-edu-estore-promo.jpg')">
+                                </div>
+                    <div class="thumb-details showHam" >
+                        <div class="col-xs-1 col-md-1 col-sm-1" style="height: 86px;">
+                            <i class="fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10 col-md-10 col-sm-10" style="height: 86px;">
+                            <div class="detail-content clamp">
+                                <h3 class="clampingDetail" data-id="randomId7643" style="">
+                                <span class="asianLang" style="width: 100%">软件定制</span>
+                                </h3>
+                                <p class="clampingDetail" data-id="randomId9455" style="">
+                                <span class="asianLang" style="width: 200px">Ztnet&Btzoon可根据企业的需求，定制更贴合您的业务，让系统更高效更便捷</span>
+                                </p>
+                            </div>
+                            <div class="cta_module">
+                                    <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">立即购买！ <i class="fa fa-angle-double-right inline"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;">   <i class="fa fa-bars detail-toggle"></i>
+                        </div>
+                        <div class="social-block">
+                        </div>
+                    </div>
+                </div>
+
+            </Col>
+        </Row>
+    <!-- <div class="TextLeft BlockOuter TabContent">
       <h3 class="TextCenter marginB_10">殡葬管理云平台</h3>
       <p class="TextCenter marginB_10">助力民政殡葬信息化建设</p>
       <Row type="flex" justify="" class="code-row-bg marginT_20">
@@ -20,7 +81,7 @@
         <div style="clear: both;"></div>
       </Row>
 
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -75,7 +136,7 @@
   }
 </script>
 <style lang="scss">
-.Iot{
+.SoftWare{
   .BlockOuter{
       padding: 20px 20px;
       .mu-tabs{
