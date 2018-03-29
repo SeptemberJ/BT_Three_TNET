@@ -8,29 +8,11 @@
         <Software v-if="Cur_Product == '软件开发'"/>
         <HR v-if="Cur_Product == 'HR服务'"/>
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" :class="{'active':Cur_Product == Tab.name}" v-for="(Tab,Idx) in TabMenu_Product" @click="ChangeTab_Product(Tab.name)"><a data-element-name="news" data-element-type="tab" href="#1" aria-controls="1" role="tab" data-toggle="tab" name="&amp;lpos=content_home : 213"><i class="fa fa-comments-o"></i>{{Tab.name}}</a></li>
+            <li role="presentation" :class="{'active':Cur_Product == Tab.name}" v-for="(Tab,Idx) in TabMenu_Product" @click="ChangeTab_Product(Tab.name)"><a><i :class="[Tab.icon]"></i>{{Tab.name}}</a></li>
             <!-- <i class="fa fa-comments-o"></i> -->
         </ul>
     </div>
-    <!-- <div class="TextCenter OneBlock">
-            <h1>我们的产品</h1>
-            <div class="marginTB_40">
-              <Row class="TextCenter">
-                  <Col v-for="(Tab,Idx) in TabMenu_Product" span="6" :class="{'Active':Cur_Product == Tab.name}">
-                    <span class="CursorPointer Padding_10"  @click="ChangeTab_Product(Tab.name)">
-                      <Icon :size="24" :class="{'ActiveIcon':Cur_Product == Tab.name}" :type="Tab.icon"></Icon>
-                      <p :class="{'TabP':true,'ActiveP':Cur_Product == Tab.name}">{{Tab.name}}</p>
-                    </span>
-                  </Col>
-              </Row>
-            </div>
-            <div class="marginTB_40">
-              <Iot v-if="Cur_Product == '物联网云服务'"/>
-              <Hardware v-if="Cur_Product == '联网硬件'"/>
-              <Software v-if="Cur_Product == '软件开发'"/>
-              <HR v-if="Cur_Product == 'HR服务'"/>
-            </div>
-    </div> -->
+    
     <TabCarousel/>
     <div class="OneBlock" style="margin-top: 0px; overflow: hidden">
       <Row type="flex"  justify="center"  class="code-row-bg TextCenter" :gutter="16">
@@ -75,7 +57,7 @@ import HR from '../components/TNET/Tab/Home/HR'
     data: function () {
       return {
         Cur_Product:'物联网云服务',
-        TabMenu_Product:[{'name':'物联网云服务','icon':'fa fa-comments-o'},{'name':'联网硬件','icon':'fa fa-comments-o'},{'name':'软件开发','icon':'fa fa-comments-o'},{'name':'HR服务','icon':'fa fa-comments-o'}],
+        TabMenu_Product:[{'name':'物联网云服务','icon':'fa fa-globe'},{'name':'联网硬件','icon':'fa fa-tasks'},{'name':'软件开发','icon':'fa fa-desktop'},{'name':'HR服务','icon':'fa fa-cloud'}],
       }
     },
     mounted: function () {
