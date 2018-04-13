@@ -6,7 +6,7 @@
               <div class="container-fluid">
                   <div class="row">
                       <div class="col-md-9 col-lg-9 snav_left">
-                          <h2>公司</h2>
+                          <h2 class="colorBlack">公司</h2>
                           <ul>
                               <li v-for="(Menu,Idx) in OverviewList">
                               <a  :data-element-name="Menu.name" data-element-type="tab" :href="Menu.tabNo">{{Menu.name}}</a>

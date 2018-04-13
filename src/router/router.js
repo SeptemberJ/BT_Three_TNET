@@ -3,9 +3,8 @@ import VueRouter from 'vue-router'
 import Store from '../store/store'
 import App from '../app'
 import TNET_Home from '../page/Home'
-// import SmartHox_ApplicationScene from '../page/SmartHox/ApplicationScene'
-// import SmartHox_Products from '../page/SmartHox/Products'
 import Company from '../page/Company'
+import Production from '../page/Production'
 import {deviceInfo} from "../util/device"
 Vue.use(VueRouter)
 
@@ -15,9 +14,8 @@ const routes = [
     component: App,
     children: [
     {path:'/TNET_Home',name: '软件开发', component: TNET_Home},
-    // {path:'/SmartHox_ApplicationScene',name: '物联网场景应用', component: SmartHox_ApplicationScene},
-    // {path:'/SmartHox_Products',name: '产品与服务', component: SmartHox_Products},
     {path:'/Company',name: '公司', component: Company},
+    {path:'/Production',name: '公司', component: Production},
     {path:'*', redirect: '/TNET_Home'}
       // {path: '/article/:id', name: 'article', component: Article},
     ]

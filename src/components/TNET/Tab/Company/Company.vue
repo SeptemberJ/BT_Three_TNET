@@ -1,10 +1,10 @@
 <template>
-    <div class="parcontainer parsys">
+    <div class="parcontainer parsys container-fluid">
                 <!--对应描文本-->
                 <div class="anchortarget section">
                   <a id="overview" class="navSelecter"></a>
                 </div>
-                <img style="width: 100%;"  src="static/img/Banner/aboutus.png">
+                <img style="width: 100%; margin: 15px 0;"  src="static/img/Banner/aboutus.png">
                 <div class="OneBlock PaddingLR_20">
                     <h2 class="marginTB_20">Smart Hox 帮助企业快速实现智能化、人工智能、大数据</h2>
                     <P>
