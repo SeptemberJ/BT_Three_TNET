@@ -5,6 +5,7 @@ import App from '../app'
 import TNET_Home from '../page/Home'
 import Company from '../page/Company'
 import Production from '../page/Production'
+import ProductDetail from '../page/ProductDetail'
 import {deviceInfo} from "../util/device"
 Vue.use(VueRouter)
 
@@ -16,6 +17,7 @@ const routes = [
     {path:'/TNET_Home',name: '软件开发', component: TNET_Home},
     {path:'/Company',name: '公司', component: Company},
     {path:'/Production',name: '公司', component: Production},
+    {path:'/ProductDetail',name: '产品详情', component: ProductDetail},
     {path:'*', redirect: '/TNET_Home'}
       // {path: '/article/:id', name: 'article', component: Article},
     ]

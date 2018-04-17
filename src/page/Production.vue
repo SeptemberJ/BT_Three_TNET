@@ -61,7 +61,7 @@
                     <Row type="flex" justify="space-between" class="code-row-bg marginTB_40" :gutter="16">
                         <Col class="marginB_10" :xs="24" :sm="12" :md="12" :lg="12" v-for="(Production,Idx) in ProductionList_C">
                             <div style="min-height: 100px;" class="Padding_10">
-                                <h3 class="colorBlue">{{Production.title}}<i class="fa fa-angle-double-right marginL_10"></i></h3>
+                                <h3 class="colorBlue"><router-link :to="{ path: 'ProductDetail',query: { production: Production.title }}">{{Production.title}}<i class="fa fa-angle-double-right marginL_10"></i></router-link></h3>
                                 <p class="marginTB_20">{{Production.content}}</p>
                             </div>
                         </Col>

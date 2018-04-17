@@ -151,4 +151,8 @@
   text-align: left;
   color: #fff !important;
 }
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu){
+  color: #fff !important;
+  border-right: 0px solid #464547 !important;
+}
 </style>

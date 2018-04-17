@@ -19,7 +19,9 @@
                               </p>
                           </div>
                           <div class="cta_module">
-                                  <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">了解详细 <i class="fa fa-angle-double-right inline"></i></a>
+                                  <a class="learn_more" title="立即购买！" href="javascript:void(0)" target="_self">
+                                    <router-link :to="{ path: Block.link }">了解详细<i class="fa fa-angle-double-right inline"></i></router-link>
+                                  </a>
                           </div>
                       </div>
                       <div class="col-xs-1 col-md-1 col-sm-1 cntClk" style="height: 86px;">   <i class="fa fa-bars detail-toggle"></i>
@@ -37,8 +39,8 @@
     data: function () {
       return {
         BlockInfo:[
-          {'title':'殡葬管理云平台','content':'助力民政殡葬信息化建设','img':'static/img/TNET/picture/wdjm-img1.jpg','icon':'fa fa-share-alt-square'},
-          {'title':'软件定制','content':'Ztnet&Btzoon可根据企业的需求，定制更贴合您的业务，让系统更高效更便捷','img':'static/img/TNET/picture/ros-img1.jpg','icon':'fa fa-shield'}
+          {'title':'殡葬管理云平台','content':'助力民政殡葬信息化建设','img':'static/img/TNET/picture/wdjm-img1.jpg','icon':'fa fa-share-alt-square','link':'Production'},
+          {'title':'软件定制','content':'Ztnet&Btzoon可根据企业的需求，定制更贴合您的业务，让系统更高效更便捷','img':'static/img/TNET/picture/ros-img1.jpg','icon':'fa fa-shield','link':'Production'}
         ],
         ProductList:[
           {'name':'数字化殡仪业务管理系统','link':''},
