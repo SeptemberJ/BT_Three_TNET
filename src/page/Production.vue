@@ -41,7 +41,7 @@
                     <Row type="flex" justify="space-between" class="code-row-bg marginTB_40" :gutter="16">
                         <Col class="marginB_10" :xs="24" :sm="12" :md="12" :lg="12" v-for="(Production,Idx) in ProductionList_K3">
                             <div style="min-height: 100px;" class="Padding_10">
-                                <h3 class="colorBlue">{{Production.title}}<i class="fa fa-angle-double-right marginL_10"></i></h3>
+                                <h3 class="colorBlue"><router-link :to="{ path: 'ProductDetail',query: { production: Production.title }}">{{Production.title}}<i class="fa fa-angle-double-right marginL_10"></i></router-link></h3>
                                 <p class="marginTB_20">{{Production.content}}</p>
                             </div>
                         </Col>
@@ -93,8 +93,8 @@
             {'title':'金蝶二次开发','content':'从 “尊重用户企业文化，彰显个性管理”的角度出发，Ztnet专门推出金蝶二次开发平台，与金蝶ERP管理软件系统一起打造企业的个性化ERP，实现企业的个性化管理。','kind':'K3EK'},
             {'title':'金蝶K/3 Cloud','content':'聚焦多组织、多利润中心的大中型企业，全面支持多组织财务管理、业务协同、精细管控，借助平台实现全网资源聚合，通过云平台实现敏捷协同，最终成就敏捷企业的“随需而制”。','kind':'K3Cloud'},
             {'title':'金蝶EAS','content':'EAS为集团企业提供全面覆盖财务共享、供应链、销售、采购电商、多工厂制造等解决方案；满足集团企业创新与发展需求，为其提供最适合中国企业管理特质的开放平台','kind':'K3EAS'},
-            {'title':'金蝶KIS ','content':'金蝶KIS融合社交网络、移动互联网和云计算三大新兴技术，让您实现轻松、高效经营，赢得更多商机。','kind':'K3KIS'},
-            {'title':'金蝶/K3 WISE ','content':'设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”，实现企业的卓越价值和基业常青。','kind':'K3WISE'},
+            {'title':'金蝶KIS','content':'金蝶KIS融合社交网络、移动互联网和云计算三大新兴技术，让您实现轻松、高效经营，赢得更多商机。','kind':'K3KIS'},
+            {'title':'金蝶/K3 WISE','content':'设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”，实现企业的卓越价值和基业常青。','kind':'K3WISE'},
         ],
         ProductionList_C:[
             {'title':'微订货系统(小程序)','content':'Ztnet微订货系统（小程序）：对工作数据要求精确，数据量大，迫切需要提高生产力和工作效率，需要严格控制工作流程的企业。跟传统系统相比，优势如下：小程序端，用户使用方便，直接从微信登录，方便，便捷。','kind':'Order'},
