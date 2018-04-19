@@ -27,7 +27,9 @@
       </div>
   </div>
 </template>
+
 <script>
+
 import Header from 'components/Header/Header'
 import Sider from 'components/Sider/Sider'
 import Footer from 'components/Footer/Footer'

@@ -12,20 +12,20 @@
 		"content":["Ztnet进销存不同于传统进销存，它以提升企业效益为导向通过“订单”协同+进销存管理打通企业外部生意协作与内部管理覆盖企业供应链全业务场景，实时数据决策，让生意更简单！从进销存开始，打造企业专属的全渠道营销互动平台。"]
 		},
 		"FunctionCharacters":[
-			{"title":"采购管理","picture":"http://139.196.232.21/images/inventory-1.png"},
-			{"title":"采购管理","picture":"http://139.196.232.21/images/inventory-2.png"},
-			{"title":"委外加工","picture":"http://139.196.232.21/images/inventory-3.png"},
-			{"title":"销售管理","picture":"http://139.196.232.21/images/inventory-4.png"},
-			{"title":"仓存管理","picture":"http://139.196.232.21/images/inventory-5.png"},
-			{"title":"委外核算","picture":"http://139.196.232.21/images/inventory-6.png"},
-			{"title":"PDA扫描出、入库系统","picture":"http://139.196.232.21/images/inventory-7.png"},
-			{"title":"生产任务管理","picture":"http://139.196.232.21/images/inventory-8.png"},
-			{"title":"生产任务管理","picture":"http://139.196.232.21/images/inventory-9.png"},
-			{"title":"生产看板系统","picture":"http://139.196.232.21/images/inventory-10.png"},
-			{"title":"生产看板系统","picture":"http://139.196.232.21/images/inventory-11.png"},
-			{"title":"邮件管理系统","picture":"http://139.196.232.21/images/inventory-12.png"},
-			{"title":"邮件管理系统","picture":"http://139.196.232.21/images/inventory-13.png"},
-			{"title":"样品管理下单系统","picture":"http://139.196.232.21/images/inventory-14.png"}
+			{"title":"采购管理","picture":"static/img/TNET/picture/inventory-1.png"},
+			{"title":"采购管理","picture":"static/img/TNET/picture/inventory-2.png"},
+			{"title":"委外加工","picture":"static/img/TNET/picture/inventory-3.png"},
+			{"title":"销售管理","picture":"static/img/TNET/picture/inventory-4.png"},
+			{"title":"仓存管理","picture":"static/img/TNET/picture/inventory-5.png"},
+			{"title":"委外核算","picture":"static/img/TNET/picture/inventory-6.png"},
+			{"title":"PDA扫描出、入库系统","picture":"static/img/TNET/picture/inventory-7.png"},
+			{"title":"生产任务管理","picture":"static/img/TNET/picture/inventory-8.png"},
+			{"title":"生产任务管理","picture":"static/img/TNET/picture/inventory-9.png"},
+			{"title":"生产看板系统","picture":"static/img/TNET/picture/inventory-10.png"},
+			{"title":"生产看板系统","picture":"static/img/TNET/picture/inventory-11.png"},
+			{"title":"邮件管理系统","picture":"static/img/TNET/picture/inventory-12.png"},
+			{"title":"邮件管理系统","picture":"static/img/TNET/picture/inventory-13.png"},
+			{"title":"样品管理下单系统","picture":"static/img/TNET/picture/inventory-14.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -40,16 +40,16 @@
 		"content":["Ztnet微订货系统（小程序）：对工作数据要求精确，数据量大，迫切需要提高生产力和工作效率，需要严格控制工作流程的企业。跟传统系统相比，优势如下：小程序端，用户使用方便，直接从微信登录，方便，便捷。"]
 		},
 		"FunctionCharacters":[
-			{"title":"具体流程：登录、忘记密码","picture":"http://139.196.232.21/images/battery-1.png"},
-			{"title":"具体流程：供应商:查看订单","picture":"http://139.196.232.21/images/battery-2.png"},
-			{"title":"具体流程：供应商:“我的”","picture":"http://139.196.232.21/images/battery-3.png"},
-			{"title":"具体流程：供应商:“我的库存”","picture":"http://139.196.232.21/images/battery-4.png"},
-			{"title":"具体流程：供应商“回收申请”","picture":"http://139.196.232.21/images/battery-5.png"},
-			{"title":"具体流程：供应商“回收地址”","picture":"http://139.196.232.21/images/battery-6.png"},
-			{"title":"具体流程：物流商查看派单","picture":"http://139.196.232.21/images/battery-7.png"},
-			{"title":"具体流程：物流商查看、确认订单","picture":"http://139.196.232.21/images/battery-8.png"},
-			{"title":"具体流程：仓库管理员查看物流商回单情况","picture":"http://139.196.232.21/images/battery-9.png"},
-			{"title":"具体流程：仓库管理员入库","picture":"http://139.196.232.21/images/battery-10.png"}
+			{"title":"具体流程：登录、忘记密码","picture":"static/img/TNET/picture/battery-1.png"},
+			{"title":"具体流程：供应商:查看订单","picture":"static/img/TNET/picture/battery-2.png"},
+			{"title":"具体流程：供应商:“我的”","picture":"static/img/TNET/picture/battery-3.png"},
+			{"title":"具体流程：供应商:“我的库存”","picture":"static/img/TNET/picture/battery-4.png"},
+			{"title":"具体流程：供应商“回收申请”","picture":"static/img/TNET/picture/battery-5.png"},
+			{"title":"具体流程：供应商“回收地址”","picture":"static/img/TNET/picture/battery-6.png"},
+			{"title":"具体流程：物流商查看派单","picture":"static/img/TNET/picture/battery-7.png"},
+			{"title":"具体流程：物流商查看、确认订单","picture":"static/img/TNET/picture/battery-8.png"},
+			{"title":"具体流程：仓库管理员查看物流商回单情况","picture":"static/img/TNET/picture/battery-9.png"},
+			{"title":"具体流程：仓库管理员入库","picture":"static/img/TNET/picture/battery-10.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -66,7 +66,7 @@
 		"FunctionCharacters":[
 			{"title":"倒冲的实际应用","horizontalText":["在制造企业中至少存在三个仓库，即原材料库、在制品库和产成品库，其中原材料库和产成品库是实体库，也就是实际存在的仓库，而在制品库是个虚拟库，一般情况下就是我们所说的生产车间。 倒冲法是ERP系统根据产成品收料数量确认原材料冲减数量的一种方法，倒冲是ERP系统对产成品收料并对原材料减料的确认过程。在ERP中，每个产成品和在制品都设置了BOM表（物料清单），系统在产成品入库时将自动增加产成品库中成品数量并根据BOM减少在制品库（或者委外供应商的仓库）即生产车间的原材料的数量。原材料倒冲一般只在产成品库和在制品库之间进行。","倒冲法涉及仓库、财务、生产和工程等几个相关部门的工作，倒冲这一环节无形中加强了对这几个部门的监督和控制，如可以监督仓库部是否准确无误的发料，生产部是否精确的领料，工程部是否及时根据工艺更新BOM表，财务部的帐实是否一致等。"],"picture":""},
 			{"title":"柏田ERP倒冲的优势","horizontalText":["1、投料单自动生成后，不用选择批号，倒冲系统会根据如批号先进先出（类似这样固定的原则）来倒冲；","2、操作简单，只需要在产成品入库的时候，在入库界面点击倒冲按钮即可；","3、支持产成品分批入库倒冲，并且可以根据入库情况，按不一样的规则倒冲，如是否最终入库，“否”的时候按照倒冲公式计算领料数量，“是”的时候按照计划投料数量直接到冲等；","4、可以按照计划投料数量倒冲，也可以根据客户实际要求按照如“实际调拨数量”这样的字段来倒冲；","5、在每个环节加上控制，减少人为失误，如控制调拨数量小于等于应发数量，对于有最小包装的物料，可以允许超调拨，但是控制超调数量不能大于最小包装数，以达到更准确管理的目的；","6、细节严谨，严格控制人为的重复倒冲，库存不足不让完成倒冲，并且做出提示，入库单只有保存或者审核后才允许倒冲 ;","7、根据客户非标准化的特殊流程，可操作性更强。"],"picture":""},
-			{"title":"具体操作流程","horizontalText":[],"picture":"http://139.196.232.21/images/backflush-1.png"},
+			{"title":"具体操作流程","horizontalText":[],"picture":"static/img/TNET/picture/backflush-1.png"},
 			{"title":"成功案例","horizontalText":["1、雅柏利(上海)粘扣带有限公司（生产、加工各种粘扣带，销售公司自产产品的外资企业）。。。。。生产倒冲 特殊情况：使用实际调拨数量进行倒冲（有退料调拨过程），入库区分是否最终入库","2、上海林果实业股份有限公司（国内最大的动态令牌提供商）。。。。。生产/委外倒冲 特殊情况：调拨单控制不允许超调、最小包装调拨、损耗调拨直接倒冲（计算入领料数量中）"],"picture":""}
 		],
 		"TwoColumnBlock":[]
@@ -82,14 +82,14 @@
 		"content":["适用企业：对库存数据要求精确，迫切需要提高生产力和物流效率，需要严格控制产品出入库的企业 涉及行业有：制造业、电商行业、租赁、零售（批发）业、物流仓储。跟传统进销存系统相比，从开单方面说，PDA开单可以不受电脑限制，可以进行移动式的操作；从盘点方面说，PDA可以扫描进行，移动式的进行，不受电脑，不受网络限制，大大减轻了企业的盘点工作量；PDA上程序又可以提供出入库的验货操作，提高出入库的正确率。"]
 		},
 		"FunctionCharacters":[
-			{"title":"系统整体框架","picture":"http://139.196.232.21/images/PDA-1.jpg"},
-			{"title":"具体流程：采购","picture":"http://139.196.232.21/images/PDA-2.png"},
-			{"title":"具体流程：生产","picture":"http://139.196.232.21/images/PDA-3.png"},
-			{"title":"具体流程：销售","picture":"http://139.196.232.21/images/PDA-4.png"},
-			{"title":"客户案例：才甸花卉租赁、销售扫描系统","picture":"http://139.196.232.21/images/PDA-5.png"},
-			{"title":"单据校验功能","picture":"http://139.196.232.21/images/PDA-6.png"},
-			{"title":"出入库功能","picture":"http://139.196.232.21/images/PDA-7.png"},
-			{"title":"总结","picture":"http://139.196.232.21/images/PDA-8.png"}
+			{"title":"系统整体框架","picture":"static/img/TNET/picture/PDA-1.jpg"},
+			{"title":"具体流程：采购","picture":"static/img/TNET/picture/PDA-2.png"},
+			{"title":"具体流程：生产","picture":"static/img/TNET/picture/PDA-3.png"},
+			{"title":"具体流程：销售","picture":"static/img/TNET/picture/PDA-4.png"},
+			{"title":"客户案例：才甸花卉租赁、销售扫描系统","picture":"static/img/TNET/picture/PDA-5.png"},
+			{"title":"单据校验功能","picture":"static/img/TNET/picture/PDA-6.png"},
+			{"title":"出入库功能","picture":"static/img/TNET/picture/PDA-7.png"},
+			{"title":"总结","picture":"static/img/TNET/picture/PDA-8.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -104,18 +104,18 @@
 		"content":["Ztnet厂房租赁管理系统是一款针对厂房出租行业开发的专业化管理软件，用户可以通过本款管理软件轻松地对厂房出租进行管理，适用于普遍的厂房租赁公司。","跟传统租赁系统相比，优势如下：1，从签单方面说，合同签订之后分期付款操作灵活，可以及时更新分期收付款进度。2，从项目管理方面说，可依据操作员需求录入项目内容，查询时可一一展现各项目的具体情况。大大减轻了工作量。3，程序可以对收付款情况，利润测算情况，面积进出情况等作出统计。程序又可以提供结账操作，提高出数据清算时的正确率。"]
 		},
 		"FunctionCharacters":[
-			{"title":"系统整体框架","picture":"http://139.196.232.21/images/lease-1.png"},
-			{"title":"具体流程：合同签订","picture":"http://139.196.232.21/images/lease-2.png"},
-			{"title":"具体流程：发票及其他费用管理","picture":"http://139.196.232.21/images/lease-3.png"},
-			{"title":"具体流程：结账","picture":"http://139.196.232.21/images/lease-4.png"},
-			{"title":"报表查询：租赁面积明细","picture":"http://139.196.232.21/images/lease-5.png"},
-			{"title":"报表查询：利润测算表","picture":"http://139.196.232.21/images/lease-6.png"},
-			{"title":"报表查询：投资分红表","picture":"http://139.196.232.21/images/lease-7.png"}
+			{"title":"系统整体框架","picture":"static/img/TNET/picture/lease-1.png"},
+			{"title":"具体流程：合同签订","picture":"static/img/TNET/picture/lease-2.png"},
+			{"title":"具体流程：发票及其他费用管理","picture":"static/img/TNET/picture/lease-3.png"},
+			{"title":"具体流程：结账","picture":"static/img/TNET/picture/lease-4.png"},
+			{"title":"报表查询：租赁面积明细","picture":"static/img/TNET/picture/lease-5.png"},
+			{"title":"报表查询：利润测算表","picture":"static/img/TNET/picture/lease-6.png"},
+			{"title":"报表查询：投资分红表","picture":"static/img/TNET/picture/lease-7.png"}
 		],
 		"TwoColumnBlock":[]
 	},
 	{
-  		"Name":"RFID仓储自动化系统",
+  		"Name":"RFID仓储自动化系统2",
 		"OverviewList":[
 			{"name":"概述","tabNo":"#overview"},
 			{"name":"功能特性","tabNo":"#functionCharacter"}
@@ -140,25 +140,25 @@
 		"content":["Ztnet微信审批系统适用企业：对工作数据要求精确，数据量大，迫切需要提高生产力和工作效率，需要严格控制工作流程的企业。跟传统系统相比，优势如下：小程序端，用户使用方便，直接从微信登录，方便，便捷；企业微信端，企业内部的员工，可以按照工作流程，还能推送消息"]
 		},
 		"FunctionCharacters":[
-			{"title":"系统整体框架","picture":"http://139.196.232.21/images/wine-1.png"},
-			{"title":"具体流程：小程序K3","picture":"http://139.196.232.21/images/wine-2.png"},
-			{"title":"具体流程：物料信息","picture":"http://139.196.232.21/images/wine-3.png"},
-			{"title":"具体流程：分类","picture":"http://139.196.232.21/images/wine-4.png"},
-			{"title":"具体流程：下单","picture":"http://139.196.232.21/images/wine-14.png"},
-			{"title":"具体流程：查看审核进度","picture":"http://139.196.232.21/images/wine-5.png"},
-			{"title":"具体流程：查看账户","picture":"http://139.196.232.21/images/wine-6.png"},
-			{"title":"微信审批流程","picture":"http://139.196.232.21/images/wine-7.png"},
-			{"title":"具体流程：职员一级审核","picture":"http://139.196.232.21/images/wine-8.png"},
-			{"title":"具体流程：职员一级审核","picture":"http://139.196.232.21/images/wine-9.png"},
-			{"title":"具体流程：财务二级审核","picture":"http://139.196.232.21/images/wine-10.png"},
-			{"title":"具体流程：总经理三级审核","picture":"http://139.196.232.21/images/wine-11.png"},
-			{"title":"具体流程：消息推送","picture":"http://139.196.232.21/images/wine-12.png"},
-			{"title":"具体流程：企业微信物料管理","picture":"http://139.196.232.21/images/wine-13.png"}
+			{"title":"系统整体框架","picture":"static/img/TNET/picture/wine-1.png"},
+			{"title":"具体流程：小程序K3","picture":"static/img/TNET/picture/wine-2.png"},
+			{"title":"具体流程：物料信息","picture":"static/img/TNET/picture/wine-3.png"},
+			{"title":"具体流程：分类","picture":"static/img/TNET/picture/wine-4.png"},
+			{"title":"具体流程：下单","picture":"static/img/TNET/picture/wine-14.png"},
+			{"title":"具体流程：查看审核进度","picture":"static/img/TNET/picture/wine-5.png"},
+			{"title":"具体流程：查看账户","picture":"static/img/TNET/picture/wine-6.png"},
+			{"title":"微信审批流程","picture":"static/img/TNET/picture/wine-7.png"},
+			{"title":"具体流程：职员一级审核","picture":"static/img/TNET/picture/wine-8.png"},
+			{"title":"具体流程：职员一级审核","picture":"static/img/TNET/picture/wine-9.png"},
+			{"title":"具体流程：财务二级审核","picture":"static/img/TNET/picture/wine-10.png"},
+			{"title":"具体流程：总经理三级审核","picture":"static/img/TNET/picture/wine-11.png"},
+			{"title":"具体流程：消息推送","picture":"static/img/TNET/picture/wine-12.png"},
+			{"title":"具体流程：企业微信物料管理","picture":"static/img/TNET/picture/wine-13.png"}
 		],
 		"TwoColumnBlock":[]
 	},
 	{
-  		"Name":"第三方物流管理系统",
+  		"Name":"第三方物流管理系统2",
 		"OverviewList":[
 			{"name":"概述","tabNo":"#overview"},
 			{"name":"功能特性","tabNo":"#functionCharacter"}
@@ -180,14 +180,19 @@
 			{"name":"功能特性","tabNo":"#functionCharacter"}
 		],
 		"Summary":{
-		"title":"",
-		"content":[]
+		"title":"轻量级，更新实时，跨平台，资源离线，体验更流畅",
+		"content":["触手可及:小程序不需要下载安装 用户扫一扫或者搜一下即可打开应用;用完即走:用户不用关心是否安装太多应用的问题，小程序随时可用，又无需安装卸载;丰富的框架组件和API:界面、视图、内容、按钮、导航、多媒体、位置、数据、网络、重力感应等;个性化编辑器:模块化编辑方式，可自定义专属“小程序”，满足各项业务需求;完善的用户系统:独立注册，微信授权数据同步，并配有多种社交功能;一键生成:支持微信公众号和DZ一键转小程序，内容、用户同步搞定。"],
+		"imgBlock":[]
 		},
 		"FunctionCharacters":[
-			
-			{"title":"","picture":""}
+			{"title":"小程序的优势","picture":"static/img/TNET/picture/wechat-7.png"}
 		],
-		"TwoColumnBlock":[]
+		"TwoColumnBlock":[],
+		"TextImgBlock":[
+			{"title":"案例——车队管理","picture":"static/img/TNET/picture/wechat-8.png","list":[{"title":"报销","content":"绑定账号后介意查看到自己的报销单"},{"title":"报修","content":"填入车号、报修项目后可以提交报修单"},{"title":"评价","content":"旅客可以通过扫司机的二维码，来对改司机车辆的容貌、行车安全、服务态度进行评价"},{"title":"行程单","content":"对车辆行程中的里程、车费、加油费用、食宿支出等进行记录"}]},
+			{"title":"案例——金桥蓄电池","picture":"static/img/TNET/picture/wechat-9.png","list":[{"title":"报销","content":"绑定账号后介意查看到自己的报销单"},{"title":"报修","content":"填入车号、报修项目后可以提交报修单"},{"title":"评价","content":"旅客可以通过扫司机的二维码，来对改司机车辆的容貌、行车安全、服务态度进行评价"},{"title":"行程单","content":"对车辆行程中的里程、车费、加油费用、食宿支出等进行记录"}]},
+			{"title":"案例——遵义红酒","picture":"static/img/TNET/picture/wechat-10.png","list":[{"title":"报销","content":"绑定账号后介意查看到自己的报销单"},{"title":"报修","content":"填入车号、报修项目后可以提交报修单"},{"title":"评价","content":"旅客可以通过扫司机的二维码，来对改司机车辆的容貌、行车安全、服务态度进行评价"},{"title":"行程单","content":"对车辆行程中的里程、车费、加油费用、食宿支出等进行记录"}]}
+		]
 	},
 	{
   		"Name":"售后服务系统",
@@ -200,11 +205,10 @@
 		"content":["售后服务的定义：就是在商品出售以后所提供的各种服务活动。从推销工作来看，售后服务本身同时也是一种促销手段。在追踪跟进阶段，推销人员要采取各种形式的配合步骤，通过售后服务来提高企业的信誉，扩大产品的市场占有率，提高推销工作的效率及效益。"]
 		},
 		"FunctionCharacters":[
-			{"title":"好的售后服务必然依托于完善健全的服务工具---售后管理系统","picture":"http://139.196.232.21/images/after-service-1png.png"},
-			{"title":"根据客户需求建立个性化售后服务单","picture":"http://139.196.232.21/images/after-service-2.png"},
-			{"title":"可以通过售后服务单建立关联关系，下推相关单据，例如其他出库单，使之成为完整的售后生态体系","picture":"http://139.196.232.21/images/after-service-3.png"},
-			{"title":"K3系统外开发个性化报表，如下所示的时间进度报表，方便管理者了解产品维修进展以及滞留情况","picture":"http://139.196.232.21/images/after-service-4.png"},
-			{"title":"开发微信查询小程序，结合小程序轻量级应用成本低，效率高的优点，让客户更方便的查询送修进展以及处理结果，同时也提高了维修人员的工作效率","picture":"http://139.196.232.21/images/after-service-5.png"}
+			{"title":"根据客户需求建立个性化售后服务单","picture":"static/img/TNET/picture/after-service-2.png"},
+			{"title":"可以通过售后服务单建立关联关系，下推相关单据，例如其他出库单，使之成为完整的售后生态体系","picture":"static/img/TNET/picture/after-service-3.png"},
+			{"title":"K3系统外开发个性化报表，如下所示的时间进度报表，方便管理者了解产品维修进展以及滞留情况","picture":"static/img/TNET/picture/after-service-4.png"},
+			{"title":"开发微信查询小程序，结合小程序轻量级应用成本低，效率高的优点，让客户更方便的查询送修进展以及处理结果，同时也提高了维修人员的工作效率","picture":"static/img/TNET/picture/after-service-5.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -216,17 +220,17 @@
 		],
 		"Summary":{
 		"title":"ZTNET-殡仪馆业务系统",
-		"content":["本系统实现了整个殡仪馆业务靠计算机来管理。从信息高度统一管理原则出发，建设殡仪业务管理系统，包括系统开发、系统测试、项目部署、员工培训等，使殡仪馆在业务流程控制、员工绩效考评、员工任务安排及提醒、库存控制等方面实现信息化、现代化的管理。系统包括从电话预约、业务洽谈、车辆管理、入馆登记、冷藏管理到遗体整理、悼念管理、收费管理、火化管理等全方位综合性的业务管理，并可以实现远程的现代化办公（远程业务办理和管理），是为殡仪单位打造的一个现代化的信息管理平台。"]
+		"content":["本系统实现了整个殡仪馆业务靠计算机来管理。从信息高度统一管理原则出发，建设殡仪业务管理系统，包括系统开发、系统测试、项目部署、员工培训等，使殡仪馆在业务流程控制、员工绩效考评、员工任务安排及提醒、库存控制等方面实现信息化、现代化的管理。","系统包括从电话预约、业务洽谈、车辆管理、入馆登记、冷藏管理到遗体整理、悼念管理、收费管理、火化管理等全方位综合性的业务管理，并可以实现远程的现代化办公（远程业务办理和管理），是为殡仪单位打造的一个现代化的信息管理平台。"]
 		},
 		"FunctionCharacters":[
-			{"title":"系统首页","horizontalText":[],"picture":"http://139.196.232.21/images/funeral-2.png"},
-			{"title":"遗体接运管理","horizontalText":["遗体接运主要包括逝者信息增加，逝者信息维护以及发送记录三个子模块。逝者信息增加模块主要录入逝者的信息，逝者家属的联系方式等信息，并且对于遗体储放殡仪馆冷柜，卫生棺等设施进行选择。逝者信息维护模块包括修改、查看、打印、发送等功能，实现了可以修改不完善的逝者信息，查看并校对逝者的信息，打印遗体火化单给家属，并且每天统计及时的火化信息数据上传至上海民政局。发送记录模块主要查看所有上传至上海民政局的逝者信息。"],"picture":"http://139.196.232.21/images/funeral-3.png"},
-			{"title":"收费管理","horizontalText":["收费管理主要包括收费清单新增，收费清单维护，收费清单明细三个子模块。收费清单新增主要是录入逝者名字，地址以及殡仪馆的所有收费项目，收费项目可以自由选择并且可以在收费项目模块里维护。收费清单维护包括修改，查看，打印，收费等功能，实现了可以修改不完善的收费项目，查看并校对收费清单，打印收费单，会计可以进行收费等操作。收费清单明细记录了会计对每张收费单的具体收费，包括应收金额，优惠金额，实收金额，实际收款金额。"],"picture":"http://139.196.232.21/images/funeral-4.png"},
-			{"title":"收费项目","horizontalText":["收费项目模块实现的功能主要是对殡仪馆所有收费项目的维护，包括收费项目的名字，价格，默认选择情况，排序规则等状态，真正实现了收费项目由工作人员自己维护的需求。"],"picture":"http://139.196.232.21/images/funeral-5.png"},
-			{"title":"基础类型","horizontalText":["基础类型包括国家，民族，死亡类型，身份证类型，与死者关系等上海民政局所需的数据的资料，是发送到民政局接口所不可缺少的模块，一般处于默认状态不维护。"],"picture":"http://139.196.232.21/images/funeral-6.png"},
-			{"title":"殡仪馆设施","horizontalText":["殡仪馆设施模块包括火化炉维护，卫生棺卫慧，骨灰盒维护，石棉垫维护等四个子模块，包括增加、修改、删除等功能，为工作人员操作本系统提供良好的参考选择。"],"picture":"http://139.196.232.21/images/funeral-7.png"},
-			{"title":"系统监控","horizontalText":["系统监控包括数据监控和系统日志等功能，数据监控主要是监控系统表单数据的变化，系统日志主要记录每个登陆本系统的操作人员的IP以及操作的流程。"],"picture":"http://139.196.232.21/images/funeral-8.png"},
-			{"title":"系统管理","horizontalText":["系统管理主要包括用户管理，角色管理和组织机构等模块。用户管理主要是增加，修改，删除操作本系统的用户信息，分配用户所需角色，分配用户所属组织机构。角色管理主要是控制角色对本系统模块操作的权限。组织机构是用户所属的组织的管理。"],"picture":"http://139.196.232.21/images/funeral-9.png"}
+			{"title":"系统首页","horizontalText":[],"picture":"static/img/TNET/picture/funeral-2.png"},
+			{"title":"遗体接运管理","horizontalText":["遗体接运主要包括逝者信息增加，逝者信息维护以及发送记录三个子模块。逝者信息增加模块主要录入逝者的信息，逝者家属的联系方式等信息，并且对于遗体储放殡仪馆冷柜，卫生棺等设施进行选择。逝者信息维护模块包括修改、查看、打印、发送等功能，实现了可以修改不完善的逝者信息，查看并校对逝者的信息，打印遗体火化单给家属，并且每天统计及时的火化信息数据上传至上海民政局。发送记录模块主要查看所有上传至上海民政局的逝者信息。"],"picture":"static/img/TNET/picture/funeral-3.png"},
+			{"title":"收费管理","horizontalText":["收费管理主要包括收费清单新增，收费清单维护，收费清单明细三个子模块。收费清单新增主要是录入逝者名字，地址以及殡仪馆的所有收费项目，收费项目可以自由选择并且可以在收费项目模块里维护。收费清单维护包括修改，查看，打印，收费等功能，实现了可以修改不完善的收费项目，查看并校对收费清单，打印收费单，会计可以进行收费等操作。收费清单明细记录了会计对每张收费单的具体收费，包括应收金额，优惠金额，实收金额，实际收款金额。"],"picture":"static/img/TNET/picture/funeral-4.png"},
+			{"title":"收费项目","horizontalText":["收费项目模块实现的功能主要是对殡仪馆所有收费项目的维护，包括收费项目的名字，价格，默认选择情况，排序规则等状态，真正实现了收费项目由工作人员自己维护的需求。"],"picture":"static/img/TNET/picture/funeral-5.png"},
+			{"title":"基础类型","horizontalText":["基础类型包括国家，民族，死亡类型，身份证类型，与死者关系等上海民政局所需的数据的资料，是发送到民政局接口所不可缺少的模块，一般处于默认状态不维护。"],"picture":"static/img/TNET/picture/funeral-6.png"},
+			{"title":"殡仪馆设施","horizontalText":["殡仪馆设施模块包括火化炉维护，卫生棺卫慧，骨灰盒维护，石棉垫维护等四个子模块，包括增加、修改、删除等功能，为工作人员操作本系统提供良好的参考选择。"],"picture":"static/img/TNET/picture/funeral-7.png"},
+			{"title":"系统监控","horizontalText":["系统监控包括数据监控和系统日志等功能，数据监控主要是监控系统表单数据的变化，系统日志主要记录每个登陆本系统的操作人员的IP以及操作的流程。"],"picture":"static/img/TNET/picture/funeral-8.png"},
+			{"title":"系统管理","horizontalText":["系统管理主要包括用户管理，角色管理和组织机构等模块。用户管理主要是增加，修改，删除操作本系统的用户信息，分配用户所需角色，分配用户所属组织机构。角色管理主要是控制角色对本系统模块操作的权限。组织机构是用户所属的组织的管理。"],"picture":"static/img/TNET/picture/funeral-9.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -241,14 +245,14 @@
 		"content":["经过将近一年的奋斗改版，柏田车辆监控平台正式上线;多定位终端支持：北斗终端、GPS终端、手机客户端;七大核心功能体系，规范车辆行为，提高业务效率，增强服务质量，降低车载物品安全风险。"]
 		},
 		"FunctionCharacters":[
-			{"title":"系统信息管理","horizontalText":["管理员管理、平台日志查看、APP资讯管理。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-15.png"},
-			{"title":"运输信息管理","horizontalText":["加盟企业管理、车队管理、车辆管理、驾驶员管理、车辆类型管理、车载终端管理、车辆外派。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-3.png"},
-			{"title":"数据报表展示","horizontalText":["里程报表、轨迹报表、命令日志报表、操作日志报表、终端报警报表、平台报警报表、最新状态报表、驾驶员记录报表。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-4.png"},
-			{"title":"大数据分析","horizontalText":["在线率统计、终端报警统计、平台报警统计、油耗情况统计、数据上报统计、证件统计、驾驶员统计。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-7.png"},
-			{"title":"车辆实施监控看板","horizontalText":[],"picture":"http://139.196.232.21/images/vehicleMonitoring-8.png"},
-			{"title":"特种运输管理","horizontalText":["集港物流信息子系统、危险品零售供应链子系统、仓储配送一体化子系统、冷链配送一体化子系统、干线运输信息化子系统、长途客车底舱配送子系统。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-9.png"},
-			{"title":"公告通知发布","horizontalText":["发布公告、历史公告、公告信息。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-11.png"},
-			{"title":"订单信息管理","horizontalText":["管理订单、改派订单、订单异常处理、客户管理。"],"picture":"http://139.196.232.21/images/vehicleMonitoring-12.png"}
+			{"title":"系统信息管理","horizontalText":["管理员管理、平台日志查看、APP资讯管理。"],"picture":"static/img/TNET/picture/vehicleMonitoring-15.png"},
+			{"title":"运输信息管理","horizontalText":["加盟企业管理、车队管理、车辆管理、驾驶员管理、车辆类型管理、车载终端管理、车辆外派。"],"picture":"static/img/TNET/picture/vehicleMonitoring-3.png"},
+			{"title":"数据报表展示","horizontalText":["里程报表、轨迹报表、命令日志报表、操作日志报表、终端报警报表、平台报警报表、最新状态报表、驾驶员记录报表。"],"picture":"static/img/TNET/picture/vehicleMonitoring-4.png"},
+			{"title":"大数据分析","horizontalText":["在线率统计、终端报警统计、平台报警统计、油耗情况统计、数据上报统计、证件统计、驾驶员统计。"],"picture":"static/img/TNET/picture/vehicleMonitoring-7.png"},
+			{"title":"车辆实施监控看板","horizontalText":[],"picture":"static/img/TNET/picture/vehicleMonitoring-8.png"},
+			{"title":"特种运输管理","horizontalText":["集港物流信息子系统、危险品零售供应链子系统、仓储配送一体化子系统、冷链配送一体化子系统、干线运输信息化子系统、长途客车底舱配送子系统。"],"picture":"static/img/TNET/picture/vehicleMonitoring-9.png"},
+			{"title":"公告通知发布","horizontalText":["发布公告、历史公告、公告信息。"],"picture":"static/img/TNET/picture/vehicleMonitoring-11.png"},
+			{"title":"订单信息管理","horizontalText":["管理订单、改派订单、订单异常处理、客户管理。"],"picture":"static/img/TNET/picture/vehicleMonitoring-12.png"}
 		],
 		"TwoColumnBlock":[]
 	},
@@ -294,7 +298,7 @@
 		],
 		"Summary":{
 		"title":"金蝶二次开发 开发属于你的专有软件",
-		"content":"柏田，一家专注于行业软件的公司。主要从事于金蝶用友ERP系统的实施、培训、二开，以及其它行业化软件的定制开发、电商网站、手机APP等相关服务，目前公司在邮政，迪士尼均有项目。"
+		"content":["柏田，一家专注于行业软件的公司。主要从事于金蝶用友ERP系统的实施、培训、二开，以及其它行业化软件的定制开发、电商网站、手机APP等相关服务，目前公司在邮政，迪士尼均有项目。"]
 		},
 		"FunctionCharacters":[],
 		"TwoColumnBlock":[
@@ -334,10 +338,10 @@
 		],
 		"Summary":{
 		"title":"开放的ERP云平台",
-		"content":"聚焦多组织、多利润中心的大中型企业，全面支持多组织财务管理、业务协同、精细管控，借助平台实现全网资源聚合，通过云平台实现敏捷协同，最终成就敏捷企业的“随需而制”。",
+		"content":["聚焦多组织、多利润中心的大中型企业，全面支持多组织财务管理、业务协同、精细管控，借助平台实现全网资源聚合，通过云平台实现敏捷协同，最终成就敏捷企业的“随需而制”。"],
 		"imgBlock":[
-          {"title":"寻找最适合的产品","content":"Ztnet 深知每个行业、每个企业都有着不同的需求，为了更好的开展本企业的业务，你需要找到适合您需求的解决方案，Ztnet K/3 Cloud为你解决这一切。","img":"http://139.196.232.21/images/k3cloud-img1.png","icon":"fa fa-cubes"},
-          {"title":"康宝电器案例","content":"金蝶K3/cloud B2B电商方案落地，助力保康建立了代理商业务和管理平台。","img":"http://139.196.232.21/images/k3cloud-img2.jpg","icon":"fa fa-cubes"}
+          {"title":"寻找最适合的产品","content":"Ztnet 深知每个行业、每个企业都有着不同的需求，为了更好的开展本企业的业务，你需要找到适合您需求的解决方案，Ztnet K/3 Cloud为你解决这一切。","img":"static/img/TNET/picture/k3cloud-img1.png","icon":"fa fa-cubes"},
+          {"title":"康宝电器案例","content":"金蝶K3/cloud B2B电商方案落地，助力保康建立了代理商业务和管理平台。","img":"static/img/TNET/picture/k3cloud-img2.jpg","icon":"fa fa-cubes"}
         ]
 		},
 		"FunctionCharacters":[],
@@ -366,10 +370,10 @@
 		],
 		"Summary":{
 		"title":"为企业集团构建卓越的集团管控平台",
-		"content":"EAS为集团企业提供全面覆盖财务共享、供应链、销售、采购电商、多工厂制造等解决方案；满足集团企业创新与发展需求，为其提供最适合中国企业管理特质的开放平台。",
+		"content":["EAS为集团企业提供全面覆盖财务共享、供应链、销售、采购电商、多工厂制造等解决方案；满足集团企业创新与发展需求，为其提供最适合中国企业管理特质的开放平台。"],
 		"imgBlock":[
-          {"title":"金蝶EAS解决方案","content":"Ztnet 金蝶EAS解决方案，以 “连接、智能、创新” 持续帮助集团企业转型升级。","img":"http://139.196.232.21/images/EAS-img1.jpg","icon":"fa fa-cubes"},
-          {"title":"千亿房企的财务管控转型之路","content":"通过使用金蝶的ERP系统和集成移动系统，我们企业的管理更加精细化，使用手机等移动终端可以更方便、更快捷的操作和审批我们的业务。2013年3月4日，万科发布2012业绩营收增长43.7%，管理精细化被认为是我们万科业绩提升的重要原因，而信息化技术和工具的更新也功不可没。 ——万科执行副总裁 王文金","img":"http://139.196.232.21/images/EAS-img2.jpg","icon":"fa fa-cubes"}
+          {"title":"金蝶EAS解决方案","content":"Ztnet 金蝶EAS解决方案，以 “连接、智能、创新” 持续帮助集团企业转型升级。","img":"static/img/TNET/picture/EAS-img1.jpg","icon":"fa fa-cubes"},
+          {"title":"千亿房企的财务管控转型之路","content":"通过使用金蝶的ERP系统和集成移动系统，我们企业的管理更加精细化，使用手机等移动终端可以更方便、更快捷的操作和审批我们的业务。2013年3月4日，万科发布2012业绩营收增长43.7%，管理精细化被认为是我们万科业绩提升的重要原因，而信息化技术和工具的更新也功不可没。 ——万科执行副总裁 王文金","img":"static/img/TNET/picture/EAS-img2.jpg","icon":"fa fa-cubes"}
         ]
 		},
 		"FunctionCharacters":[],
@@ -398,10 +402,10 @@
 		],
 		"Summary":{
 		"title":"为企业集团构建卓越的集团管控平台",
-		"content":"EAS为集团企业提供全面覆盖财务共享、供应链、销售、采购电商、多工厂制造等解决方案；满足集团企业创新与发展需求，为其提供最适合中国企业管理特质的开放平台。",
+		"content":["EAS为集团企业提供全面覆盖财务共享、供应链、销售、采购电商、多工厂制造等解决方案；满足集团企业创新与发展需求，为其提供最适合中国企业管理特质的开放平台。"],
 		"imgBlock":[
-          {"title":"全面、精细、高效 提升盈利能力","content":"Ztnet 金蝶KIS解决方案，帮助中小企业步入信息化管理，全面覆","img":"http://139.196.232.21/images/KIS-img1.jpg","icon":"fa fa-cubes"},
-          {"title":"高效利用碎片化时间管理好企业 护航易事特高速发展","content":"系统提供各种应收应付款数据，生成的报表也非常详细，能够非常清楚地了解到每一笔业务的应收应付情况。只需要一张报表，财务人员可以轻松地与客户或供应商完成对账工作。","img":"http://139.196.232.21/images/KIS-img2.jpg","icon":"fa fa-cubes"}
+          {"title":"全面、精细、高效 提升盈利能力","content":"Ztnet 金蝶KIS解决方案，帮助中小企业步入信息化管理，全面覆","img":"static/img/TNET/picture/KIS-img1.jpg","icon":"fa fa-cubes"},
+          {"title":"高效利用碎片化时间管理好企业 护航易事特高速发展","content":"系统提供各种应收应付款数据，生成的报表也非常详细，能够非常清楚地了解到每一笔业务的应收应付情况。只需要一张报表，财务人员可以轻松地与客户或供应商完成对账工作。","img":"static/img/TNET/picture/KIS-img2.jpg","icon":"fa fa-cubes"}
         ]
 		},
 		"FunctionCharacters":[],
@@ -441,10 +445,10 @@
 		],
 		"Summary":{
 		"title":"打造企业“智造力”实现企业的卓越价值和基业长青",
-		"content":"设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”，实现企业的卓越价值和基业常青。",
+		"content":["设计创新力、整合销售力、敏捷制造力、协同运营力4个方面打造企业“智造力”，实现企业的卓越价值和基业常青。"],
 		"imgBlock":[
-          {"title":"打造企业“智造力”","content":"Ztnet 金蝶/K3 WISE，致力于为企业的财务管理决策提供全方位信息，及时、准确，让您随时掌握自己企业的一切信息。","img":"http://139.196.232.21/images/wise-img1.jpg","icon":"fa fa-cubes"},
-          {"title":"全产品生命周期管理","content":"通过金蝶K/3 PLM的实施，易事特的IPD研发管理体系得到了很好的固化，项目，文档，表单，流程，研发的所有流程都是通过金蝶K/3 PLM系统来实现的。同时建立了一系列标准化签审流程，规范了公司的运作，提高了产品研发效率。","img":"http://139.196.232.21/images/wise-img2.jpg","icon":"fa fa-cubes"}
+          {"title":"打造企业“智造力”","content":"Ztnet 金蝶/K3 WISE，致力于为企业的财务管理决策提供全方位信息，及时、准确，让您随时掌握自己企业的一切信息。","img":"static/img/TNET/picture/wise-img1.jpg","icon":"fa fa-cubes"},
+          {"title":"全产品生命周期管理","content":"通过金蝶K/3 PLM的实施，易事特的IPD研发管理体系得到了很好的固化，项目，文档，表单，流程，研发的所有流程都是通过金蝶K/3 PLM系统来实现的。同时建立了一系列标准化签审流程，规范了公司的运作，提高了产品研发效率。","img":"static/img/TNET/picture/wise-img2.jpg","icon":"fa fa-cubes"}
         ]
 		},
 		"FunctionCharacters":[],

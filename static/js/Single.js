@@ -144,6 +144,8 @@ $(document).ready(function() {
         400)
     })
 });
+
+
 $(window).load(function() {
     setTimeout(function() {
         getlineHeightAsian()
@@ -161,6 +163,8 @@ $(window).load(function() {
         }
     })
 });
+
+
 $(document).ready(function() {
     var a = "";
     $(".faq_ans").hide();
@@ -198,6 +202,8 @@ $(document).ready(function() {
         $(".faq_block.selected").click()
     })
 });
+
+
 $(document).ready(function() {
     $(".thumb-container .detail-content").each(function() {
         if (!$(this).hasClass("noclamp")) {
@@ -208,6 +214,8 @@ $(document).ready(function() {
         }
     })
 });
+
+
 if (!Function.prototype.bind) {
     Function.prototype.bind = function(a) {
         if (typeof this !== "function") {
@@ -307,6 +315,8 @@ if (!Function.prototype.bind) {
     };
     n.clamp = h
 })(window, window.document);
+
+
 var clampingWidth = "";
 window.loadClamp = function(a) {
     var b = "";
@@ -354,6 +364,7 @@ window.loadClamp = function(a) {
         }
     })
 };
+
 $(function() {
     window.showHamBurger = function() {
         $(".thumb-details .col-md-10 .clampingDetail").each(function() {
@@ -398,42 +409,58 @@ $(function() {
 
 var owl;
 
-// 详细页
-$(document).on("click", ".submenu li a",
-function(a) {
-    if ($(this).attr("href") == document.location.pathname + document.location.hash) {
-        $(".cross").click();
-        a.preventDefault()
-    } else {
-        if ($(this).attr("href").split("#")[0] == document.location.pathname) {
-            $(".cross").click();
-            var b = "#" + $(this).attr("href").split("#")[1];
-            $(".secondary-nav ul li a").each(function() {
-                if ($(this).attr("href") == b) {
-                    $(this).click()
-                }
-            })
-        }
-    }
-});
 
-$(document).on("click", ".submenu li a",
-function(a) {
-    if ($(this).attr("href") == document.location.pathname + document.location.hash) {
-        $(".cross").click();
-        a.preventDefault()
-    } else {
-        if ($(this).attr("href").split("#")[0] == document.location.pathname + document.location.hash) {
-            $(".cross").click();
-            var b = "#" + $(this).attr("href").split("#")[1];
-            $(".secondary-nav ul li a").each(function() {
-                if ($(this).attr("href") == b) {
-                    $(this).click()
-                }
-            })
-        }
-    }
-});
+
+
+// 详细页
+// $(document).on("click", ".submenu li a",
+// function(a) {
+//     if ($(this).attr("href") == document.location.pathname + document.location.hash) {
+//         $(".cross").click();
+//         a.preventDefault()
+//     } else {
+//         if ($(this).attr("href").split("#")[0] == document.location.pathname) {
+//             $(".cross").click();
+//             var b = "#" + $(this).attr("href").split("#")[1];
+//             $(".secondary-nav ul li a").each(function() {
+//                 if ($(this).attr("href") == b) {
+//                     $(this).click()
+//                 }
+//             })
+//         }
+//     }
+// });
+
+// $(document).on("click", ".submenu li a",
+// function(a) {
+//     if ($(this).attr("href") == document.location.pathname + document.location.hash) {
+//         $(".cross").click();
+//         a.preventDefault()
+//     } else {
+//         if ($(this).attr("href").split("#")[0] == document.location.pathname + document.location.hash) {
+//             $(".cross").click();
+//             var b = "#" + $(this).attr("href").split("#")[1];
+//             $(".secondary-nav ul li a").each(function() {
+//                 if ($(this).attr("href") == b) {
+//                     $(this).click()
+//                 }
+//             })
+//         }
+//     }
+// });
+
+function moduleHeight() {
+    $(".module").removeAttr("style");
+    var b = new Array();
+    var a = "";
+    $(".module").each(function() {
+        b.push($(this).outerHeight())
+    });
+    a = Math.max.apply(Math, b);
+    $(".module").css("height", a + 20);
+    $(".miniverticalcontentcontainer .section.target.parbase").css("height", a + 35)
+}
+
 
 var getAnchorName = [];
 var getAnchortop = [];
@@ -446,6 +473,8 @@ var breadCrumHeight = $(".breadCrumb").outerHeight(true);
 var secondNavHeight = $(".secondary-nav").outerHeight(true);
 var secondNavFixedHeight = $(".secondary-nav.fixed").outerHeight(true);
 var getNavHeight = 0;
+
+//锚点id 位置
 function getNavDetail() {
     getAnchorName.length = 0;
     getAnchortop.length = 0;
@@ -454,11 +483,13 @@ function getNavDetail() {
         getAnchortop.push(Math.ceil($(this).position().top))
     })
 }
+
 $(document).ready(function() {
     if ($(".secondary-nav ul li").length < 1) {
         $(".secondary-nav").addClass("noLinks")
     }
-    SetHeaderHeight();
+    //SetHeaderHeight();
+
     $(window).load(function() {
         b();
         if (window.innerWidth <= 800) {
@@ -470,16 +501,20 @@ $(document).ready(function() {
             }
         })
     });
+    
+    //滚动监听
     $(window).on("scroll",
     function() {
         if (window.innerWidth <= 800) {
             collapseMenu()
         }
     });
+
+    //nav 点击事件
     $(document).on("click", ".secondary-nav ul li a[href*=#]:not([href=#])",
     function(g) {
         b();
-        var d = 0;
+        var d = 30;
         if (window.innerWidth < 800) {
             if ($(this).hasClass("active") && !$(this).parent("ul").hasClass("open")) {
                 return false
@@ -498,6 +533,7 @@ $(document).ready(function() {
                 }
             }
         }
+
         calcHeight_snav();
         g.preventDefault();
         var f = this.hash;
@@ -509,30 +545,40 @@ $(document).ready(function() {
         function() {
             onScroll()
         });
+
         $(".secondary-nav ul").removeClass("open")
     });
+
+
+
     if (window.innerWidth <= 800) {
         collapseMenu()
     }
+
+    //监听滚动时nav的显示
     $(window).on("scroll",
     function() {
         b();
         onScroll()
     });
-    function a(c) {}
-    $(document).on("click", ".secondary-nav ul li a",
-    function(d) {
-        $(".content-container").css("padding-top", 0);
-        if ($(this).hasClass("active")) {
-            return false
-        } else {
-            var c = $(this);
-            var f = c.attr("href");
-            if (c.position().top <= scrollPos) {} else {
-                c.removeClass("active")
-            }
-        }
-    });
+
+    //function a(c) {}
+
+    // $(document).on("click", ".secondary-nav ul li a",
+    // function(d) {
+    //     $(".content-container").css("padding-top", 0);
+    //     if ($(this).hasClass("active")) {
+    //         return false
+    //     } else {
+    //         var c = $(this);
+    //         var f = c.attr("href");
+    //         if (c.position().top <= scrollPos) {} else {
+    //             c.removeClass("active")
+    //         }
+    //     }
+    // });
+
+    //点击文字展开或合上nav
     $(document).on("click", ".secondary-nav ul li a.active",
     function(c) {
         $(".secondary-nav ul li").toggle();
@@ -540,6 +586,8 @@ $(document).ready(function() {
         $(".secondary-nav ul").addClass("open");
         c.preventDefault()
     });
+
+    //fixed padding
     function b() {
         if (window.innerWidth < 1001 && window.innerWidth > 800) {
             if ($(window).scrollTop() < 40) {
@@ -563,17 +611,21 @@ $(document).ready(function() {
             getNavDetail()
         }
     }
+
+
     if ($(window).scrollTop() > 0) {
         $(".breadCrumb").addClass("scrolling")
     }
+
+    //窗口大小变动时
     $(window).resize(function() {
         headlinePos();
         SetHeaderHeight();
         b();
         onScroll();
-        if ($(window).scrollTop() > 0) {
-            $(".breadCrumb").addClass("scrolling")
-        }
+        // if ($(window).scrollTop() > 0) {
+        //     $(".breadCrumb").addClass("scrolling")
+        // }
         if (window.innerWidth <= 800) {
             collapseMenu();
             calcHeight_snav()
@@ -588,9 +640,11 @@ $(document).ready(function() {
             }
         }
     });
+
     if (window.innerWidth <= 640) {
         headlinePos()
     }
+
     $(window).scroll(function() {
         if (window.innerWidth < 800) {
             if ($(".secondary-nav").hasClass("noLinks")) {
@@ -615,6 +669,7 @@ $(document).ready(function() {
                 }
             } else {
                 if ($(window).scrollTop() > 0) {
+                    //alert('scroll---')
                     getNavDetail();
                     if ($(".secondary-nav ul").length > 0) {
                         $(".secondary-nav").addClass("hideHeading");
@@ -627,6 +682,8 @@ $(document).ready(function() {
             }
         }
     });
+
+
     if (window.innerWidth < 800) {
         if ($(".secondary-nav ul li").length > 0) {
             $(".content-container").css("padding-top", $(".secondary-nav").height())
@@ -635,11 +692,15 @@ $(document).ready(function() {
         $(window).on("scroll", onScroll);
         $(window).on("resize", onScroll)
     }
+
     onScroll();
     $(window).on("scroll", onScroll);
     $(window).on("resize", onScroll);
     $(window).on("load", onScroll)
 });
+
+
+
 function headlinePos() {
     if (window.innerWidth <= 640) {
         if ($(window).scrollTop() == 0) {
@@ -660,6 +721,7 @@ function headlinePos() {
         }
     }
 }
+
 function SetHeaderHeight() {
     if (window.innerWidth > 800) {
         if ($(".secondary-nav .snav_left ul").length > 0) {
@@ -682,16 +744,21 @@ function SetHeaderHeight() {
         if ($(".secondary-nav .snav_left ul li").length < 1) {}
     }
 }
+
+//滚动时菜单合上
 function collapseMenu() {
     $(".secondary-nav ul li a").parent("li").hide();
     $(".secondary-nav ul li a.active").parent("li").show()
 }
+
 function calcHeight_snav() {
-    var a = 0;
-    if ($(".secondary-nav").is(":visible") == true) {
-        a = $(".secondary-nav").height()
-    }
+    // var a = 0;
+    // if ($(".secondary-nav").is(":visible") == true) {
+    //     a = $(".secondary-nav").height()
+    // }
 }
+
+//滚动时切换当前nav显示
 function onScroll() {
     getNavDetail();
     var b = 0;
@@ -706,7 +773,7 @@ function onScroll() {
     }
     if (window.innerWidth > 800) {
         if ($(window).scrollTop() < 40) {
-            SetHeaderHeight();
+            //SetHeaderHeight();
             $(".content-container").css("padding-top", 0)
         }
     }
@@ -718,67 +785,68 @@ function onScroll() {
     }
 }
 
-$(window).resize(function() {
-    moduleHeight();
-    resizeBlock_tech_specs();
-    setTimeout(moduleHeight, 50);
-    if (window.innerWidth > 992) {
-        combinationCard()
-    }
-    if (window.innerWidth > 801) {
-        if (!$(".secondary-nav").length > 0) {
-            $(".content-container").removeAttr("style")
-        }
-    } else {
-        if (window.innerWidth < 801) {
-            if (!$(".secondary-nav").length > 0) {
-                $(".content-container").css("margin-top", $(".sidebar").outerHeight())
-            }
-        }
-    }
-});
+// $(window).resize(function() {
+//     moduleHeight();
+//     resizeBlock_tech_specs();
+//     setTimeout(moduleHeight, 50);
+//     if (window.innerWidth > 992) {
+//         combinationCard()
+//     }
+//     if (window.innerWidth > 801) {
+//         if (!$(".secondary-nav").length > 0) {
+//             $(".content-container").removeAttr("style")
+//         }
+//     } else {
+//         if (window.innerWidth < 801) {
+//             if (!$(".secondary-nav").length > 0) {
+//                 $(".content-container").css("margin-top", $(".sidebar").outerHeight())
+//             }
+//         }
+//     }
+// });
 
-moduleHeight();
-$(document).ready(function() {
-    moduleHeight();
-    if (window.innerWidth < 801) {
-        if (!$(".secondary-nav").length > 0) {
-            $(".content-container").css("margin-top", $(".sidebar").outerHeight())
-        }
-    }
-})
+// moduleHeight();
 
-$(document).ready(function() {
-    if (window.innerWidth > 992) {
-        combinationCard()
-    }
-    if (window.innerWidth < 801) {
-        if (!$(".secondary-nav").length > 0) {
-            $(".content-container").css("margin-top", $(".sidebar").outerHeight())
-        }
-    }
-    if ($("div.supportList").length) {
-        $(".supportList .selectpicker").selectpicker("deselectAll")
-    }
-});
+// $(document).ready(function() {
+//     moduleHeight();
+//     if (window.innerWidth < 801) {
+//         if (!$(".secondary-nav").length > 0) {
+//             $(".content-container").css("margin-top", $(".sidebar").outerHeight())
+//         }
+//     }
+// })
 
-$(window).resize(function() {
-    resizeBlock_tech_specs();
-    tableInnerHeight();
-    setTimeout(moduleHeight, 50);
-    if (window.innerWidth > 992) {
-        combinationCard()
-    }
-    if (window.innerWidth > 801) {
-        if (!$(".secondary-nav").length > 0) {
-            $(".content-container").removeAttr("style")
-        }
-    } else {
-        if (window.innerWidth < 801) {
-            if (!$(".secondary-nav").length > 0) {
-                $(".content-container").css("margin-top", $(".sidebar").outerHeight())
-            }
-        }
-    }
-    setModal1MaxHeight()
-});
+// $(document).ready(function() {
+//     if (window.innerWidth > 992) {
+//         combinationCard()
+//     }
+//     if (window.innerWidth < 801) {
+//         if (!$(".secondary-nav").length > 0) {
+//             $(".content-container").css("margin-top", $(".sidebar").outerHeight())
+//         }
+//     }
+//     if ($("div.supportList").length) {
+//         $(".supportList .selectpicker").selectpicker("deselectAll")
+//     }
+// });
+
+// $(window).resize(function() {
+//     resizeBlock_tech_specs();
+//     tableInnerHeight();
+//     setTimeout(moduleHeight, 50);
+//     if (window.innerWidth > 992) {
+//         combinationCard()
+//     }
+//     if (window.innerWidth > 801) {
+//         if (!$(".secondary-nav").length > 0) {
+//             $(".content-container").removeAttr("style")
+//         }
+//     } else {
+//         if (window.innerWidth < 801) {
+//             if (!$(".secondary-nav").length > 0) {
+//                 $(".content-container").css("margin-top", $(".sidebar").outerHeight())
+//             }
+//         }
+//     }
+//     setModal1MaxHeight()
+// });

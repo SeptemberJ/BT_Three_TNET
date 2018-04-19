@@ -9,12 +9,14 @@ import 'babel-polyfill'
 // import MuseUI from 'muse-ui'
 // import 'muse-ui/dist/muse-ui.css'
 // import 'muse-ui/dist/theme-carbon.css' // 使用 carbon 主题
-import iView from 'iview';
-import '../my-theme/dist/iview.css';
+import iView from 'iview'
+import '../my-theme/dist/iview.css'
+import '../static/css/common.css'
+import '../static/css/Single.css'
+import '../static/js/Single.js'
 // Vue.use(MuseUI)
 
 // import 'theme/theme.less';
-
 
 Vue.use(VueResource)
 Vue.use(Vuex)

@@ -69,7 +69,7 @@
                     </Row>
                   </div>
                 </div>
-                <div class="LineBlock"></div>
+                
 
 
 
@@ -137,8 +137,8 @@
 </script>
 <style lang="scss">
 .Product{
-  .colorBlue{
-    color: #006990;
+  .colorBlue a{
+    color: #006990 !important;
   }
 }
 </style>

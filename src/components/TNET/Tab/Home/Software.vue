@@ -39,7 +39,7 @@
     data: function () {
       return {
         BlockInfo:[
-          {'title':'殡葬管理云平台','content':'助力民政殡葬信息化建设','img':'static/img/TNET/picture/wdjm-img1.jpg','icon':'fa fa-share-alt-square','link':'Production'},
+          {'title':'殡葬管理云平台','content':'助力民政殡葬信息化建设','img':'static/img/TNET/picture/wdjm-img1.jpg','icon':'fa fa-share-alt-square','link':'ProductDetail?production=殡仪馆业务系统'},
           {'title':'软件定制','content':'Ztnet&Btzoon可根据企业的需求，定制更贴合您的业务，让系统更高效更便捷','img':'static/img/TNET/picture/ros-img1.jpg','icon':'fa fa-shield','link':'Production'}
         ],
         ProductList:[

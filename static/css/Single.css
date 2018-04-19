@@ -531,7 +531,6 @@ a.orangered{display:inline-block;font-size:16px;text-shadow:0;color:#fff !import
 
 /*fixed head nav*/
 .pageHeader{clear:both}
-}
 .secondary-nav h2{display:block}
 .secondary-nav.fixed h2{display:none}
 .secondary-nav.fixed ul{margin-top:17px}

@@ -26,8 +26,8 @@
           </div>
           <div class="OneBlock PaddingLR_20">
               <h2 class="marginTB_20">{{ProductionInfo.Summary.title}}</h2>
-              <!-- <P v-for="(SummaryContent,Idx) in ProductionInfo.Summary.content" class="marginT_10">{{SummaryContent}}</P> -->
-              <P class="marginT_10">{{ProductionInfo.Summary.content[0]}}</P>
+              <P v-for="(SummaryContent,Idx) in ProductionInfo.Summary.content" class="marginT_10">{{SummaryContent}}</P>
+              <!-- <P class="marginT_10">{{ProductionInfo.Summary.content[0]}}</P> -->
               <!-- 图片 -->
               <Row type="flex" justify="space-between" class="code-row-bg marginTB_20" :gutter="16">
                 <Col :xs="24" :sm="24" :md="12" :lg="12" v-for="(ImgBlock,Idx) in ProductionInfo.Summary.imgBlock" class="marginB_10">
@@ -58,14 +58,14 @@
             </Row>
               <!-- /.图片 -->
           </div>
-          <div class="LineBlock"></div>
+          <div v-if="ProductionInfo.Summary.title || ProductionInfo.Summary.content" class="LineBlock"></div>
 
           <!-- 功能特性 -->
           <div class="anchortarget section">
             <a id="functionCharacter" class="navSelecter"></a>
           </div>
           <!-- 内容、大图 -->
-          <div v-if="ProductionInfo.FunctionCharacters.length>0">
+          <div v-if="ProductionInfo.FunctionCharacters && ProductionInfo.FunctionCharacters.length>0">
             <div  class="OneBlock PaddingLR_20" v-for="(FunctionCharacter,Idx) in ProductionInfo.FunctionCharacters">
                 <h2 class="">{{FunctionCharacter.title}}</h2>
                 <p class="marginT_10" v-for="(HorizontalText,Idx) in FunctionCharacter.horizontalText">{{HorizontalText}}</p>
@@ -76,13 +76,13 @@
                       </div>
                   </div>
                 </div>
-                <div class="LineBlock"></div>
+                <div v-if="Idx != ProductionInfo.FunctionCharacters.length - 1" class="LineBlock"></div>
             </div>
           </div>
           <!-- /.内容、大图 -->
 
           <!-- 两侧模块 -->
-          <div v-if="ProductionInfo.TwoColumnBlock.length>0">
+          <div v-if="ProductionInfo.TwoColumnBlock && ProductionInfo.TwoColumnBlock.length>0">
             <div class="OneBlock PaddingLR_20" v-for="(BlockItem,Idx) in ProductionInfo.TwoColumnBlock">
               <div class="TelescopicBlock SectionBlock">
                 <h2 class="">{{BlockItem.title}}</h2>
@@ -96,10 +96,71 @@
                     <div style="clear: both;"></div>
                 </Row>
               </div>
-              <div class="LineBlock"></div>
+              <div v-if="Idx != ProductionInfo.TwoColumnBlock.length - 1" class="LineBlock"></div>
             </div>
           </div>
           <!-- /.两侧模块 -->
+
+          <!-- 文字图片左右排列 -->
+          <div v-if="ProductionInfo.TextImgBlock && ProductionInfo.TextImgBlock.length>0">
+            <div class="OneBlock PaddingLR_20" v-for="(TextImg,Idx) in ProductionInfo.TextImgBlock">
+              <div class="TelescopicBlock SectionBlock">
+                <h2 class="">{{TextImg.title}}</h2>
+                  <div class="container-fluid marginT_10">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="module_container ">
+                          <div class="col-md-7 no-padding-left">
+                            <div class="img-left">
+                              <img style="width: 100%;" :src="TextImg.picture" alt="系统功能3"></div>
+                          </div>
+                          <div class="col-md-5 content-wrapper">
+                            <div class="text cq-dd-image marginT_10">
+                              <div v-for="(ListItem,Idx) in TextImg.list">
+                                <h3>{{ListItem.title}}</h3>
+                                <p>{{ListItem.content}}</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div v-if="Idx != ProductionInfo.TextImgBlock.length - 1" class="LineBlock"></div>
+            </div>
+          </div>
+          <!--/.文字图片左右排列  -->
+
+
+          <!-- 资源下载 -->
+          <div v-if="!IfHaveSame" class="OneBlock PaddingLR_20">
+            <h2 class="">资源下载</h2>
+            <Row type="flex" justify="space-around" class="code-row-bg marginTB_40" :gutter="16">
+              <Col :xs="24" :sm="12" :md="12" :lg="12" class="marginTB_20">
+                <Card dis-hover>
+                    <p slot="title" class="TitBar">
+                        <Icon class="marginL_10" type="android-download"></Icon>
+                        手册
+                    </p>
+                    <ul> 
+                         <li v-for="(ManualItem,Idx) in DownloadInfo.manual" class="marginB_10"><a :href="ManualItem.source"> <i :title="ManualItem.name" class="fa fa-download "></i><span class="marginL_10">{{ManualItem.name}}</span> </a></li>
+                        </ul>
+                </Card>
+              </Col>
+              <Col :xs="24" :sm="12" :md="12" :lg="12" class="marginTB_20">
+                <Card dis-hover>
+                    <p slot="title" class="TitBar">
+                        <Icon class="marginL_10" type="android-download"></Icon>
+                        解决方案
+                    </p>
+                    <ul> 
+                      <li v-for="(SolutionItem,Idx) in DownloadInfo.solution" class="marginB_10"><a :href="SolutionItem.source"> <i :title="SolutionItem.name" class="fa fa-download"></i><span class="marginL_10">{{SolutionItem.name}}</span> </a></li>
+                    </ul>
+                </Card>
+              </Col>
+            </Row>
+          </div>
 
 
         </div>
@@ -111,32 +172,24 @@ import axios from 'axios'
   export default{
     data: function () {
       return {
+        IfHaveSame:false,
         ProductionInfo:'',
-        ProductionInfo2:{
-          Name:'进销存系统',
+        DownloadInfo:{
+          manual:[{"name":"二维码app","source":"static/Download/二维码app.pptx"},{"name":"跨境电商","source":"static/Download/跨境电商.pptx"},{"name":"物流","source":"static/Download/物流.ppt"},{"name":"移动端采购单审批","source":"static/Download/移动端采购单审批.pptx"}],
+          solution:[{"name":"远程下单方案","source":"static/Download/远程下单方案.ppt"},{"name":"K3ERP一般进销存业务流程","source":"static/Download/K3ERP一般进销存业务流程.pptx"},{"name":"生产工序","source":"static/Download/生产工序.pptx"},{"name":"RFID","source":"static/Download/RFID.ppt"}]
+        },
+        LeaderInfo:{
+          Name:'柏田定制化软件',
           OverviewList:[
-            {'name':'概述','tabNo':'#overview'},
-            {'name':'功能特性','tabNo':'#functionCharacter'},
+            // {'name':'概述','tabNo':'#overview'},
+            {'name':'概述','tabNo':'#functionCharacter'},
           ],
           Summary:{
-            'title':'ZTNET-ERP综合管理系统-进销存系统',
-            'content':'Ztnet进销存不同于传统进销存，它以提升企业效益为导向通过“订单”协同+进销存管理打通企业外部生意协作与内部管理覆盖企业供应链全业务场景，实时数据决策，让生意更简单！从进销存开始，打造企业专属的全渠道营销互动平台。'
+            'title':'',
+            'content':[]
           },
           FunctionCharacters:[
-            {'title':'采购管理','picture':'http://139.196.232.21/images/inventory-1.png'},
-            {'title':'采购管理','picture':'http://139.196.232.21/images/inventory-2.png'},
-            {'title':'委外加工','picture':'http://139.196.232.21/images/inventory-3.png'},
-            {'title':'销售管理','picture':'http://139.196.232.21/images/inventory-4.png'},
-            {'title':'仓存管理','picture':'http://139.196.232.21/images/inventory-5.png'},
-            {'title':'委外核算','picture':'http://139.196.232.21/images/inventory-6.png'},
-            {'title':'PDA扫描出、入库系统','picture':'http://139.196.232.21/images/inventory-7.png'},
-            {'title':'生产任务管理','picture':'http://139.196.232.21/images/inventory-8.png'},
-            {'title':'生产任务管理','picture':'http://139.196.232.21/images/inventory-9.png'},
-            {'title':'生产看板系统','picture':'http://139.196.232.21/images/inventory-10.png'},
-            {'title':'生产看板系统','picture':'http://139.196.232.21/images/inventory-11.png'},
-            {'title':'邮件管理系统','picture':'http://139.196.232.21/images/inventory-12.png'},
-            {'title':'邮件管理系统','picture':'http://139.196.232.21/images/inventory-13.png'},
-            {'title':'样品管理下单系统','picture':'http://139.196.232.21/images/inventory-14.png'}
+            {"title":"柏田软件为您量身定制的管理软件","horizontalText":[],"picture":"static/img/TNET/picture/xitong.png"}
           ]
         }
         
@@ -147,15 +200,19 @@ import axios from 'axios'
     },
     created() {
       let ProductionName = this.$router.history.current.query.production
-      console.log(ProductionName)
       axios.get(PRE_URL+'static/json/productionInfo.json'
       ).then((res)=> {
         console.log(res)
         res.data.productionInfoList.map((Product,Idx)=>{
           if(Product.Name == ProductionName){
+            this.IfHaveSame = true
             this.ProductionInfo = Product
           }
         })
+
+        if(!this.IfHaveSame){
+          this.ProductionInfo = this.LeaderInfo
+        }
           
       }).catch((error)=> {
         console.log(error)
@@ -178,11 +235,20 @@ import axios from 'axios'
   }
 </script>
 <style  lang="scss">
+.ivu-card-head{
+  padding: 0 !important;
+}
+.TitBar{
+  background-color: #0094d2 !important;
+  height: 40px !important; 
+  line-height: 40px !important; 
+  color: #fff !important;
+}
 .SectionBlock{
   margin-bottom: 25px !important;
 }
 .imgAtuo{
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   display: block !important;
 }
