@@ -91,7 +91,7 @@
             this.$store.state.open = !this.$store.state.open
         },
         ToSmartHox(){
-            window.open('http://220.248.107.62:8089/dist/')
+            window.open('http://222.44.17.8:8085/dist/')
         },
         ClickMenu(name){
             if(name == 0){
